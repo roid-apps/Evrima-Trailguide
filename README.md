@@ -1,19 +1,21 @@
 # Evrima Trailguide
 
-> **Security update — August 30, 2026:** Microsoft reviewed the submitted v1.11.1 installer, determined that it did not meet the criteria for malware or potentially unwanted applications, and removed the previous Defender detection. Downloads are available again. Keep antivirus protection enabled; no exclusions are required. [Security details](#security--download-transparency)
+> **Current release — v1.11.2 (August 30, 2026):** Local Defender scans reported no threats, and Roid reported a successful GitHub download. This version is unsigned and has **not** received Microsoft analyst review. The earlier Microsoft review applies only to v1.11.1. Keep antivirus protection enabled. [Security details](#security--download-transparency)
 
 ### Track your Prime progress. Find your way. Explore combat matchups.
 
 A Windows companion for **The Isle: Evrima**, made by **Roid**. Keep your run organized with a Prime checklist, your own location on the Gateway map, and damage and bleed comparisons.
 
-[![Download Windows installer](https://img.shields.io/badge/Download-Windows%20installer-24734f?style=for-the-badge&labelColor=14251f)](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.1/EvrimaTrailguide-Setup-1.11.1.exe)
-[![v1.11.1 installer downloads](https://img.shields.io/github/downloads/roid-apps/Evrima-Trailguide/v1.11.1/EvrimaTrailguide-Setup-1.11.1.exe?displayAssetName=false&label=v1.11.1%20downloads&color=24734f&labelColor=14251f&style=for-the-badge)](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.11.1)
+[![Download Windows installer](https://img.shields.io/badge/Download-Windows%20installer-24734f?style=for-the-badge&labelColor=14251f)](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.2-testing.1/EvrimaTrailguide-Setup-1.11.2.exe)
+[![v1.11.2 installer downloads](https://img.shields.io/github/downloads/roid-apps/Evrima-Trailguide/v1.11.2-testing.1/EvrimaTrailguide-Setup-1.11.2.exe?displayAssetName=false&label=v1.11.2%20downloads&color=24734f&labelColor=14251f&style=for-the-badge)](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.11.2-testing.1)
 [![Watch the walkthrough](https://img.shields.io/badge/Watch-Full%20walkthrough-b42335?style=for-the-badge&labelColor=14251f&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=2N6UwlLMEbo)
 
-**Available now: v1.11.1 — Public Preview · Windows x64**  
-[Release notes and downloads](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.11.1) · [Report a bug](https://github.com/roid-apps/Evrima-Trailguide/issues/new)
+**Current recommended download: v1.11.2 · Windows x64**  
+[Release notes and downloads](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.11.2-testing.1) · [Previous v1.11.1 release](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.11.1) · [Report a bug](https://github.com/roid-apps/Evrima-Trailguide/issues/new)
 
 <sub>The counter tracks this version's installer downloads only, not unique people or installations. It excludes checksum downloads and may take time to refresh.</sub>
+
+The original `v1.11.2-testing.1` tag is retained to preserve shared links and download counts. The release is now promoted; the installer bytes have not changed. Its bundled documentation and the original validation report may still mention testing status.
 
 ## See it in action
 
@@ -31,19 +33,37 @@ A Windows companion for **The Isle: Evrima**, made by **Roid**. Keep your run or
 | **Combat & survival** | Compare attacks, growth scenarios, direct damage, and bleed under different movement and wound-duration assumptions. |
 | **Run history & replay** | Import/export runs and replay timestamped routes and events when the recording includes them. |
 | **Compass guide** | Look up compass symbols and what they represent. |
+| **First-launch readiness** | Check Windows OCR, bundled assets, local storage and scan-area setup before use; reopen Setup check when troubleshooting. |
 
 ## Download and get started
 
-1. **[Download EvrimaTrailguide-Setup-1.11.1.exe](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.1/EvrimaTrailguide-Setup-1.11.1.exe).** Use the installer, **not** GitHub's automatic “Source code” ZIP or TAR.GZ files.
-2. Run the installer. Choose whether to create a desktop shortcut and launch Trailguide afterward. No separate .NET download is required.
-3. Start Evrima and open your **Status Report**. In Trailguide, use **Auto setup areas**, then check that the previews contain the correct information.
-4. Start scanning. Open the Status Report to refresh your location; hover the growth meter for its percentage. Adjust the regions manually if your display or UI layout needs it.
+1. **Export your run history before upgrading.** Normal installation can replace your previous version and uses the same user settings.
+2. **[Download EvrimaTrailguide-Setup-1.11.2.exe](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.2-testing.1/EvrimaTrailguide-Setup-1.11.2.exe).** Use the installer, **not** GitHub's automatic “Source code” ZIP or TAR.GZ files.
+3. Run the installer. Choose whether to create a desktop shortcut and launch Trailguide afterward. No separate .NET download is required.
+4. Review the **first-launch readiness check**. Windows x64, Windows 10 build 19041 or newer is required; English Windows OCR support may need to be installed separately.
+5. Start Evrima and open your **Status Report**. In Trailguide, use **Auto setup areas**, then check that the previews contain the correct information.
+6. Start scanning. Open the Status Report to refresh your location; hover the growth meter for its percentage. Adjust the regions manually if your display or UI layout needs it.
 
 > **Important:** Trailguide reads visible information about your own dinosaur. It does not reveal hidden players or guarantee Prime. Map visits and combat results are estimates, not server-confirmed outcomes; game updates can change their accuracy.
 
 ## Security & download transparency
 
-### Microsoft review: detection removed
+### v1.11.2: local checks, not Microsoft analyst approval
+
+On **August 30, 2026**, the release build passed **448 automated tests**. Microsoft Defender custom scans of the installer and the published application folder, with security intelligence **1.457.413.0** and protection enabled, reported **no threats**. Local installation, launch, all five main tabs and uninstall passed; all **119 bundled assets** were verified. Existing settings remained unchanged. Roid subsequently reported a successful download from GitHub.
+
+These are bounded checks on one PC, not an independent security audit, a clean-VM test or proof of every in-game behavior. **v1.11.2 has not received a Microsoft analyst review**, and no VirusTotal report is provided for this build. A successful download does not guarantee how another system will classify it.
+
+- [Original pre-promotion validation report](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.2-testing.1/VALIDATION-1.11.2.txt)
+- [v1.11.2 installer checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.2-testing.1/SHA256SUMS.txt)
+
+**Installer SHA-256:**
+
+```text
+B89690719D3D4DD4A6E06B16CC811CE6A4C6B8158C8E2B2EEFAA4343461E6D4E
+```
+
+### Previous v1.11.1: Microsoft removed the detection
 
 The v1.11.1 installer previously triggered `Program:Win32/Contebrew.A!ml`. Following the developer's submission on **August 30, 2026**, Microsoft's analyst response stated that the submitted files did not meet its criteria for malware or potentially unwanted applications and that the detection had been removed. The submitted installer shows **Final determination: Not malware**, with **No malware detected** for both cloud and client checks.
 
@@ -51,13 +71,13 @@ This resolves the reported false positive for the submitted installer. It is not
 
 **If the previous detection still appears:** update Microsoft Defender's security intelligence through **Windows Security → Virus & threat protection → Protection updates → Check for updates**, then retry the same release download. Keep protection enabled. If a malware detection persists, stop and report the exact detection and definition version; do not add exclusions or choose “Allow” to bypass it. [Microsoft update guidance](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-security-center-antivirus)
 
-### Unsigned installer and scan reports
+### Unsigned installer and historical scan reports
 
 The installer remains **unsigned**. Windows or Edge may still show **Unknown publisher** or **not commonly downloaded** warnings. These signing/reputation warnings are separate from the resolved Defender detection. [About SmartScreen reputation](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)
 
-- [Installer scan report on VirusTotal](https://www.virustotal.com/gui/file/0f806e579cb87e3bffda736e8098c75abc1aaf40f3b00fcdfe3bb12e9ebd0d23/detection)
-- [Application scan report on VirusTotal](https://www.virustotal.com/gui/file/3a29e296a3e295dbaf4d7f446d224feb93bea739b1361d45f554f7a4baa3da72/detection)
-- [Download the release checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.1/SHA256SUMS.txt)
+- [Previous v1.11.1 installer report on VirusTotal](https://www.virustotal.com/gui/file/0f806e579cb87e3bffda736e8098c75abc1aaf40f3b00fcdfe3bb12e9ebd0d23/detection)
+- [Previous v1.11.1 application report on VirusTotal](https://www.virustotal.com/gui/file/3a29e296a3e295dbaf4d7f446d224feb93bea739b1361d45f554f7a4baa3da72/detection)
+- [Previous v1.11.1 checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.11.1/SHA256SUMS.txt)
 
 The reports are provided for transparency; their results can change over time. GitHub hosting, scan results, and matching checksums are not guarantees of safety. These links identify the v1.11.1 files, not future releases.
 
@@ -67,10 +87,10 @@ The reports are provided for transparency; their results can change over time. G
 In PowerShell, from the folder containing the downloaded installer, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath .\EvrimaTrailguide-Setup-1.11.1.exe
+Get-FileHash -Algorithm SHA256 -LiteralPath .\EvrimaTrailguide-Setup-1.11.2.exe
 ```
 
-Compare the result with `SHA256SUMS.txt`. A match verifies that the bytes match the published file; it is not a malware assessment.
+Compare the result with the **v1.11.2** `SHA256SUMS.txt`. A match verifies that the bytes match the published file; it is not a malware assessment.
 
 </details>
 
@@ -87,4 +107,4 @@ Found a problem? **[Open an issue](https://github.com/roid-apps/Evrima-Trailguid
 
 Independent fan project. Not affiliated with or endorsed by The Isle's developers. Third-party assets belong to their respective owners; see the notices included with the application.
 
-<!-- Release maintenance: update the installer URL, version-specific download badge, release notes, checksum, and scan links together when publishing a new version. Do not use /releases/latest for a pre-release-only repository. -->
+<!-- Release maintenance: update the installer URL, version-specific download badge, release notes, checksum, and version-specific security evidence together. v1.11.2 retains the v1.11.2-testing.1 tag to preserve links and counters. -->
