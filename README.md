@@ -1,17 +1,17 @@
 # Evrima Trailguide
 
-> **Current release — v1.16.1 (September 4, 2026):** Adds the Mini-map 2.0 self-location HUD, the mutation catalog, and mutation-aware combat scenarios. This is the first public release since v1.11.3, so it carries everything from v1.12.0 onward. Local Defender scans reported no threats. This version is unsigned and has **not** received Microsoft analyst review — the earlier Microsoft review applies only to v1.11.1. Keep antivirus protection enabled. [Security details](#security--download-transparency)
+> **Current release — v1.16.2 (September 6, 2026):** An accuracy fix for the map trail, recommended for everyone on an earlier build: a degraded Status Report capture could put positions on your map that you were never at. Carries everything from v1.12.0 onward, including the Mini-map 2.0 HUD, the mutation catalog and mutation-aware combat scenarios. Local Defender scans reported no threats. This version is unsigned and has **not** received Microsoft analyst review — the earlier Microsoft review applies only to v1.11.1. Keep antivirus protection enabled. [Security details](#security--download-transparency)
 
 ### Track your Prime progress. Find your way. Explore combat matchups.
 
 A Windows companion for **The Isle: Evrima**, made by **Roid**. Keep your run organized with a Prime checklist, your own location on the Gateway map, and damage and bleed comparisons.
 
-[![Download Windows installer](https://img.shields.io/badge/Download-Windows%20installer-24734f?style=for-the-badge&labelColor=14251f)](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.1/EvrimaTrailguide-Setup-1.16.1.exe)
-[![v1.16.1 installer downloads](https://img.shields.io/github/downloads/roid-apps/Evrima-Trailguide/v1.16.1/EvrimaTrailguide-Setup-1.16.1.exe?displayAssetName=false&label=v1.16.1%20downloads&color=24734f&labelColor=14251f&style=for-the-badge)](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.16.1)
+[![Download Windows installer](https://img.shields.io/badge/Download-Windows%20installer-24734f?style=for-the-badge&labelColor=14251f)](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.2/EvrimaTrailguide-Setup-1.16.2.exe)
+[![v1.16.2 installer downloads](https://img.shields.io/github/downloads/roid-apps/Evrima-Trailguide/v1.16.2/EvrimaTrailguide-Setup-1.16.2.exe?displayAssetName=false&label=v1.16.2%20downloads&color=24734f&labelColor=14251f&style=for-the-badge)](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.16.2)
 [![Watch the walkthrough](https://img.shields.io/badge/Watch-Full%20walkthrough-b42335?style=for-the-badge&labelColor=14251f&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=2N6UwlLMEbo)
 
-**Current recommended download: v1.16.1 · Windows x64**  
-[Release notes and downloads](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.16.1) · [Previous v1.11.3 release](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.11.3) · [Report a bug](https://github.com/roid-apps/Evrima-Trailguide/issues/new)
+**Current recommended download: v1.16.2 · Windows x64**  
+[Release notes and downloads](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.16.2) · [Previous v1.16.1 release](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.16.1) · [Report a bug](https://github.com/roid-apps/Evrima-Trailguide/issues/new)
 
 <sub>The counter tracks this version's installer downloads only, not unique people or installations. It excludes checksum downloads and may take time to refresh.</sub>
 
@@ -32,6 +32,7 @@ The older `v1.11.2-testing.1` tag is retained so existing links and download cou
 | **Interactive Gateway map** | Zoom, pan, expand the map, and explore zone, water, food, and location-name layers. |
 | **Combat & survival** | Compare attacks, growth scenarios, direct damage, and bleed under different movement and wound-duration assumptions. |
 | **Run history & replay** | Import/export runs and replay timestamped routes and events when the recording includes them. |
+| **Trail you can trust** | Positions come from your own visible Status Report, and a reading that could not have come from where you actually are is refused rather than drawn. |
 | **Mini-map 2.0** | Keep a small, movable self-location HUD on screen for borderless or windowed play, with optional click-through so it does not intercept your game controls. |
 | **Compass guide** | Look up compass symbols and what they represent. |
 | **First-launch readiness** | Check Windows OCR, bundled assets, local storage and scan-area setup before use; reopen Setup check when troubleshooting. |
@@ -40,7 +41,7 @@ The older `v1.11.2-testing.1` tag is retained so existing links and download cou
 ## Download and get started
 
 1. **Export your run history before upgrading.** Normal installation can replace your previous version and uses the same user settings.
-2. **[Download EvrimaTrailguide-Setup-1.16.1.exe](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.1/EvrimaTrailguide-Setup-1.16.1.exe).** Use the installer, **not** GitHub's automatic “Source code” ZIP or TAR.GZ files.
+2. **[Download EvrimaTrailguide-Setup-1.16.2.exe](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.2/EvrimaTrailguide-Setup-1.16.2.exe).** Use the installer, **not** GitHub's automatic “Source code” ZIP or TAR.GZ files.
 3. Run the installer. Choose whether to create a desktop shortcut and launch Trailguide afterward. No separate .NET download is required.
 4. Review the **first-launch readiness check**. Windows x64, Windows 10 build 19041 or newer is required; English Windows OCR support may need to be installed separately.
 5. Start Evrima and open your **Status Report**. In Trailguide, use **Auto setup areas**, then check that the previews contain the correct information.
@@ -50,21 +51,21 @@ The older `v1.11.2-testing.1` tag is retained so existing links and download cou
 
 ## Security & download transparency
 
-### v1.16.1: local checks, not Microsoft analyst approval
+### v1.16.2: local checks, not Microsoft analyst approval
 
-On **September 4, 2026**, the release build passed **481 automated tests**, zero failed or skipped. Microsoft Defender custom scans with security intelligence **1.459.28.0** and real-time protection enabled — covering the exact installer, the complete published payload, and the installed copy in use — all completed with **no detection**. All **119 bundled assets** matched the embedded manifest, and no personal settings or run history are bundled in the payload. The actual installer was run to the per-user location, its uninstall registration verified, and the installed binary confirmed byte-identical to the published application. Six tab cases, four Mini-map window cases and seven isolated-profile readiness cases passed against that installed copy.
+On **September 6, 2026**, the release build passed **490 automated tests**, zero failed or skipped. Microsoft Defender custom scans with security intelligence **1.459.74.0** and real-time protection enabled — covering the exact installer, the complete published payload, and the installed copy in use — all completed with **no detection**. All **119 bundled assets** matched the embedded manifest, and no personal settings or run history are bundled in the payload. The actual installer was run to the per-user location, its uninstall registration verified, and the installed binary confirmed byte-identical to the published application. Six tab cases, four Mini-map window cases and seven isolated-profile readiness cases passed against that installed copy.
 
-The application is built from commit `7aac674` on a clean tree and embeds `1.16.1+7aac67446f5ad827243b7fd67b82da46ed304755`, so the binary can be traced to the exact source that produced it.
+The application is built from commit `c8dd614` on a clean tree and embeds `1.16.2+c8dd6147ae4e992db563bd351ab3c079b688d5cf`, so the binary can be traced to the exact source that produced it.
 
-These are bounded checks on one PC, not an independent security audit, a clean-VM test, or proof of every in-game behavior. **v1.16.1 has not received a Microsoft analyst review**, and no VirusTotal report is provided for this build. The Microsoft review that cleared v1.11.1 does not cover this file.
+These are bounded checks on one PC, not an independent security audit, a clean-VM test, or proof of every in-game behavior. **v1.16.2 has not received a Microsoft analyst review**, and no VirusTotal report is provided for this build. The Microsoft review that cleared v1.11.1 does not cover this file.
 
-- [v1.16.1 validation report](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.1/VALIDATION-1.16.1.txt)
-- [v1.16.1 installer checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.1/SHA256SUMS.txt)
+- [v1.16.2 validation report](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.2/VALIDATION-1.16.2.txt)
+- [v1.16.2 installer checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.16.2/SHA256SUMS.txt)
 
 **Installer SHA-256:**
 
 ```text
-4689F07EDCDECD88243690B67D90260CCB6D93E990A4B778A48DA86E1B10C0DF
+959EDCECD60715FD62C6768D30F333E0D073467E46BF88F46FA228B6DA037EA1
 ```
 
 ### Previous v1.11.1: Microsoft removed the detection
@@ -91,10 +92,10 @@ The reports are provided for transparency; their results can change over time. G
 In PowerShell, from the folder containing the downloaded installer, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath .\EvrimaTrailguide-Setup-1.16.1.exe
+Get-FileHash -Algorithm SHA256 -LiteralPath .\EvrimaTrailguide-Setup-1.16.2.exe
 ```
 
-Compare the result with the **v1.16.1** `SHA256SUMS.txt`. A match verifies that the bytes match the published file; it is not a malware assessment.
+Compare the result with the **v1.16.2** `SHA256SUMS.txt`. A match verifies that the bytes match the published file; it is not a malware assessment.
 
 </details>
 
@@ -114,4 +115,4 @@ Independent fan project. Not affiliated with or endorsed by The Isle's developer
 <!-- Release maintenance: update the installer URL, version-specific download badge, release notes, checksum, and version-specific security evidence together.
      Do NOT blanket-replace the version string across this file: the "Previous ... release" link and the whole v1.11.1 security history must keep pointing at their own older tags.
      v1.11.2 retains the v1.11.2-testing.1 tag to preserve links and counters; v1.11.3 and v1.16.1 use plain tags.
-     v1.12.0 through v1.16.0 were never published to GitHub, so v1.16.1 is the first release after v1.11.3. -->
+     v1.12.0 through v1.16.0 were never published to GitHub, so v1.16.1 was the first release after v1.11.3. -->
