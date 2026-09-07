@@ -67,6 +67,14 @@ The application is built from commit `7f7a8d5` on a clean tree and embeds `1.22.
 
 These are bounded checks on one PC, not an independent security audit, a clean-VM test, or proof of every in-game behavior, and no uninstall was performed. **v1.22.0 has not received a Microsoft analyst review**, and no VirusTotal report is provided for this build. The Microsoft review that cleared v1.11.1 does not cover this file.
 
+#### Independent checks on this exact file
+
+Submitted to Microsoft for analysis on September 7, 2026 (submission `d911a50c-fa64-4789-8a68-12b97174a50e`). Microsoft's analyst response: *"Our scanners show no positive detection, and we have no telemetry indicators for the file(s) submitted either."*
+
+On [VirusTotal](https://www.virustotal.com/gui/file/89ddc8706c80cf6bef1e5c5cd2b5c42495792c5b562c5293cfab69a7f4a73fe0) the same installer scans **1 of 69** — a single machine-learning verdict from DeepInstinct, an enterprise endpoint product, with **Microsoft, Kaspersky, ESET, Bitdefender, Sophos, Symantec, CrowdStrike, Malwarebytes, Fortinet, Google, McAfee and Trend Micro all reporting Undetected**. Both sandboxes report no detections and no intrusion-detection matches, and all three files the installer drops scan clean.
+
+That single verdict is named here rather than left for you to find. An unsigned installer that compresses its payload and deletes its own temporary copy is the standard profile for a machine-learning false positive, and a scan result is a snapshot that can change in either direction — check the link yourself rather than taking this paragraph's word for it.
+
 - [v1.22.0 validation report](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.22.0/VALIDATION-1.22.0.txt)
 - [v1.22.0 installer checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.22.0/SHA256SUMS.txt)
 - [Privacy statement](PRIVACY.md) — what is read, what is stored locally, and the single opt-in network request
