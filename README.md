@@ -55,6 +55,8 @@ The older `v1.11.2-testing.1` tag is retained so existing links and download cou
 
 > **Important:** Trailguide reads visible information about your own dinosaur. It does not reveal hidden players or guarantee Prime. Map visits and combat results are estimates, not server-confirmed outcomes; game updates can change their accuracy.
 
+**Your data stays on your computer.** No accounts, no telemetry, no analytics. The only network request Trailguide ever makes is an update check that is off until you turn it on, and it sends nothing about you. See the **[privacy statement](PRIVACY.md)**.
+
 ## Security & download transparency
 
 ### v1.22.0: local checks, not Microsoft analyst approval
@@ -67,6 +69,7 @@ These are bounded checks on one PC, not an independent security audit, a clean-V
 
 - [v1.22.0 validation report](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.22.0/VALIDATION-1.22.0.txt)
 - [v1.22.0 installer checksum](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.22.0/SHA256SUMS.txt)
+- [Privacy statement](PRIVACY.md) — what is read, what is stored locally, and the single opt-in network request
 
 **Installer SHA-256:**
 
