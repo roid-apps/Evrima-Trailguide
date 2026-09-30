@@ -1,0 +1,70 @@
+EVRIMA TRAILGUIDE 1.25.1 -- RELEASE VALIDATION
+Date: September 30, 2026
+Channel: stable; this report describes tested scope, not universal certification.
+
+PACKAGE IDENTITY
+Windows x64 self-contained build, .NET included.
+Product version 1.25.1; file version 1.25.1.0.
+Installer SHA-256:
+A61D7DF23A4F83071812DD189DBCF675403051598F50238464A571FE70CC1BC4
+Installer-bundle ZIP SHA-256:
+9EFB80CCE1536ABFE60243F8EB419C1CAC556675628123B48F4B7F0E854CC5F4
+Application executable SHA-256:
+B1A0C6BE83207EC3242CD32FE1D5810AD5A5C5EBDFF6713CABF57D3BD071B726
+
+CHECKS PERFORMED
+- Exact release build: 824 unit tests passed, 0 failed, 0 skipped.
+- Mini-map: 92 native/functional checks passed, including HWND click-through,
+  no-activate, edge hit-testing, hotkey conflicts/recovery, display-change recovery,
+  follow, stale guidance, pin creation/removal/sharing and preference persistence.
+- Added regression tests cover moving relocation at several speeds, sparse
+  outliers, evidence interruption, recurring origin-truncation readings, future
+  timestamps, stale growth, trail discontinuity persistence and release precedence.
+- New UI probes confirm cancelled scan-loop ownership, separate customization
+  editor with >150 DIP map area under a 650 DIP cap, live label preview, saved
+  layout values/zoom, independent map-image opacity, same-base preview upgrades,
+  saved-route resume and cancellation when manually changing targets.
+- Main-layout, feature, combat-visual, reference-UI, Expedition and readiness
+  harnesses completed successfully with isolated profiles.
+- Combat UI covers all 22 species artwork/bindings and separate calculator modes;
+  this is not validation of every game attack or server-side mechanic.
+- Compass alignment and mutation hover descriptions checked at compact/wide sizes.
+- 150% app-scale compact screenshots reviewed; short content is scrollable.
+- Release screenshots generated from actual application controls with isolated
+  sample profiles; manually entered coordinates are clearly demo data.
+- Initial candidate installer upgrade from dev.5: exit 0; final candidate upgrade
+  tested separately. Rollback app/profile copies retained locally.
+- Installed executable and all 119 bundled assets match the release package.
+- All 11 existing profile files unchanged during installation.
+- Desktop, Start menu and taskbar shortcut targets verified against installed EXE.
+- Initial candidate executable launched in isolated DEMO mode for visual verification.
+  Final candidate differs by a saved-layout zoom restoration fix; that fix passed
+  a dedicated UI regression probe. No additional desktop takeover was performed.
+- Dependency audit: no vulnerable packages reported from configured NuGet feeds.
+- Microsoft Defender custom scan of the complete distribution: no threats found.
+  Security intelligence 1.459.480.0; engine 1.1.26080.3. No protection settings changed.
+
+PACKAGE CONTENTS
+EXE is the installer. ZIP contains the same installer, README, license,
+third-party notices and installer checksum; it is not a portable application.
+Public repository contains documentation, screenshots and distribution files,
+not private application source, user profiles, saved routes or private research.
+The build includes existing local development changes. It deliberately omits a
+misleading source-commit suffix; exact distribution hashes identify this build.
+
+REMAINING LIMITS
+- No new live Evrima input test across fullscreen modes or all edge cases.
+- No physical Windows-DPI/monitor-topology changes, unplug/replug tests or
+  clean-machine installation. Geometry/native recovery tests are not substitutes.
+- No extended-session performance soak or measured live capture latency budget.
+- OCR fixtures and synthetic coordinate tests do not cover every capture artifact.
+- Borderless/windowed play is intended; exclusive-fullscreen and every overlay
+  combination are not certified. Report problems with build and display details.
+- Combat/bleed/Prime outputs remain reference estimates, not promised outcomes.
+- Installer is unsigned; no new Microsoft analyst approval or endorsement.
+  A clean scan is not a safety guarantee. Keep Windows protection enabled.
+
+DEFAULT RECOVERY
+Ctrl+Shift+M show/hide; Ctrl+Shift+I interactive controls;
+Ctrl+Shift+H map-only. Main window Show/Hide mini-map is a fallback.
+Optional auto-lock re-enables passive interaction when returning to the game.
