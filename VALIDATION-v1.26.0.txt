@@ -1,0 +1,83 @@
+EVRIMA TRAILGUIDE 1.26.0 -- RELEASE VALIDATION
+Date: November 14, 2026 (America/Denver)
+Channel: stable. This report records tested scope, not universal certification.
+
+PACKAGE IDENTITY
+Windows x64 self-contained build; .NET runtime included.
+Product version 1.26.0; numeric application/installer version 1.26.0.3.
+The numeric revision advances beyond dev.2; only release metadata changed
+after the reviewed 1.26.0-dev.2 implementation.
+Installer SHA-256:
+F17D7C580E56A67F853D998F3D32CB7F6A60180A680B8E1D0E747283E8C09C6C
+Installer-bundle ZIP SHA-256:
+FE78E99EAA8F6A403FF65E7E2852A32B294DAFFC5DC145D150CA65DA3C3BAF18
+Application executable SHA-256:
+5C54C8ADD30DD9ACD3E906E146868D2C488BDB1CCBEAE70DD57710E1FDA60425
+
+EXACT RELEASE BUILD
+- Full Release suite: 1,258 passed, 0 failed, 0 skipped.
+- Final package contains all 119 required distributed data assets. Portraits
+  and reference datasets are embedded in the application.
+- Installer completed successfully with no Windows restart required.
+- Installed executable SHA-256 equals the packaged executable; all 119 data
+  assets match. All 14 existing profile files remain byte-for-byte unchanged.
+- Desktop, Start menu and pinned taskbar shortcuts target the updated app.
+- A local pre-upgrade application/profile backup was retained. The installer
+  did not launch Trailguide or interact with the running game.
+
+FUNCTIONAL REVIEW OF THE UNCHANGED DEV.2 IMPLEMENTATION
+- Latest mini-map review: 76 headless checks passed. Covers accepted-fix follow,
+  paused follow, sizing, trail limits, waypoint direction, stale indicators,
+  map-only transparency, locked customization, preset recovery guard and
+  route-import preview sizing. These checks do not establish actual
+  cross-process mouse input behavior or physical monitor switching.
+- Fourteen appearances reviewed across six main tabs and three popup contents.
+  No remaining contrast failures among enabled visible text on painted solid
+  surfaces in that sweep; collapsed and native operating-system surfaces were
+  not exhaustively measured. Theme-focused suite: 317 passed (a subset of the
+  full tests, not an additional independent total).
+- Main layout checked at 980/1160/1600 widths, with long species names, usable
+  map viewport, expand/restore, six distinct accessible menu icons, separated
+  Appearance/Scan/Routes panels and setup-check statuses.
+- Combat checks covered 22 species, growth/blood controls, compact comparison,
+  mutation editing, gameplay guide filtering and replay geometry.
+- Expedition headless checks covered eight tabs, actions and persistence.
+
+SCREENSHOT REPRODUCTION
+- Coordinate example: 20/20 exact native Windows OCR readings, offline median
+  13 ms and maximum 14 ms.
+- Dim growth example: 40/40 exact 53.898% readings across saved and scaled
+  capture presets. Median 55/34 ms, maximum 101/35 ms.
+- Bright growth example: 40/40 exact 51.04% readings across both presets.
+  Median 52/54 ms, maximum 105/65 ms.
+- All 80 growth readings passed normal reconciliation, stabilization and
+  new-life handling, advancing isolated saved 25% profiles automatically.
+- Subsequent-update, status-bonus exclusion, cancellation, timeout and
+  failed-retry conflict regressions are covered in the final full suite.
+- Native screenshot timings are offline recognition measurements, not
+  input-to-map latency benchmarks during gameplay.
+
+LIMITS
+- A fresh live-game session under GPU load, physical mixed-DPI/monitor changes,
+  clean-machine installation and extended-session performance qualification
+  were not completed in the final review.
+- OCR requires the relevant game text to be visible. Suspicious coordinate
+  changes retain corroboration and false-teleport guards. Native OCR which
+  never acknowledges cancellation may still require restarting the app.
+- Status is processed before growth on the auxiliary worker; a failing status
+  operation may defer growth. Coordinates have a separate worker.
+- Mini-map guidance is north-up/map-relative, not dinosaur-facing heading,
+  hidden-player detection or terrain-aware pathfinding.
+- Combat, Prime and growth outputs retain their stated reference assumptions.
+  No game-balance changes or new server-wide accuracy certification is claimed.
+- Promotional screenshots are actual app renders using isolated test profiles.
+  Portraits are AI-assisted model-referenced illustrations, not official game
+  screenshots, exact models or growth measurements.
+- Installer is unsigned. No Microsoft endorsement or new analyst certification
+  is claimed. SmartScreen reputation warnings are not themselves malware findings.
+
+PUBLICATION SCOPE
+The public repository contains downloads, documentation and selected app
+screenshots. Private source, user profiles, raw gameplay screenshots and local
+research files are excluded. Checksums for both release download files are
+provided separately in SHA256SUMS.txt.
