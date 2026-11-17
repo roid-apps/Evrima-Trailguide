@@ -1,6 +1,6 @@
 # Privacy statement — Evrima Trailguide
 
-**Last updated: September 25, 2026 · Updated for: Evrima Trailguide v1.25.0-dev.5 and the repository that hosts it**
+**Last updated: November 16, 2026 · Updated for: Evrima Trailguide v1.27.0 and the repository that hosts it**
 
 Evrima Trailguide is a free desktop application for Windows, made by an independent developer (Roid). It is not a service, it has no accounts, and there is nothing to log into.
 
@@ -16,10 +16,11 @@ Its inputs are local:
 2. **Steam's `appmanifest` file for The Isle**, to read the installed build number so it can tell you when its bundled reference data is older than your game.
 3. **Its own settings, history, bundled reference data and recovery files.**
 4. **Files you explicitly choose to import, restore or compare**, such as waypoint/run exports, profile backups and reference JSON snapshots. Choosing an external website link opens your browser; that site has its own privacy policy.
+5. **Windows foreground-window information and configured mini-map shortcuts.** These let the overlay respond during gameplay and lock mouse interaction appropriately. Keyboard handling is local; typed text is not recorded or uploaded.
 
 ## What the application will not do
 
-By deliberate design, Trailguide does **not** open the game's process, read its memory, inject code, inspect network packets, detect other players, or automate keyboard or mouse input. This is a fixed boundary, not a current limitation.
+By deliberate design, Trailguide does **not** read game memory, inject code, inspect network packets, detect other players, or automate keyboard or mouse input. This is a fixed boundary, not a current limitation.
 
 ## What is stored, and where
 
@@ -37,17 +38,17 @@ These are ordinary files on your disk, accessible to software or people with the
 
 ## Network activity
 
-The built-in network feature is the optional update check, triggered manually or on launch if enabled.
-
-The **update check** is off by default. When enabled, it makes a single unauthenticated `GET` to the public GitHub API asking which release is newest:
+Update checking and automatic updates are optional and off by default. A manual check contacts GitHub once; launch checks and automatic updates run only when enabled. Automatic updating checks at launch and periodically while the app is open. Stable releases are the default, with a separate preview-release opt-in. The application asks the public GitHub API for releases from this project:
 
 ```text
 https://api.github.com/repos/roid-apps/Evrima-Trailguide/releases/latest
 ```
 
-It sends no run history, no settings, no identity and no telemetry — nothing but the `User-Agent` string GitHub requires of any caller. It never downloads or runs anything; it tells you a newer version exists and links you to the release page, where you download it yourself. GitHub will see the IP address that any web request reveals, exactly as it would if you opened the release page in a browser.
+Preview checks use the same repository's release list. With automatic updates enabled, Trailguide also downloads release checksums and a newer Windows installer from GitHub's release-asset servers. It verifies the installer before staging it locally and runs the update after you normally close Trailguide. It does not force-close the application or the game. Turning automatic updates off cancels pending automatic work.
 
-The update check follows stable GitHub releases, not development prereleases. There is no hosted live-location service or profile sync. With update checking off, the application works offline; external links you choose to open are handled by your browser.
+These requests send no run history, settings, screenshots, identity or telemetry. GitHub and its download infrastructure receive the IP address and ordinary HTTP request information, including the required application `User-Agent`, as with other downloads. Downloaded update packages and installation logs are stored locally.
+
+There is no hosted live-location service or profile sync. With update checking and automatic updates off, the application works offline; external links you choose to open are handled by your browser.
 
 ## The repository and downloads
 

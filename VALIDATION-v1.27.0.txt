@@ -1,0 +1,89 @@
+EVRIMA TRAILGUIDE 1.27.0 - RELEASE VALIDATION
+Reviewed November 16, 2026 (America/Denver)
+
+PACKAGE IDENTITY
+Display/Product version: 1.27.0
+Numeric application and installer version: 1.27.0.4
+Architecture: Windows x64; minimum Windows 10 build 19041
+Application and updater helper are self-contained; no separate .NET installation required.
+The installer ZIP is a bundle containing the installer and notices, not a portable app.
+
+Installer: EvrimaTrailguide-Setup-1.27.0.exe
+Bytes: 154802312
+SHA256: 620CFA454221B75B7357422CAD060B1A06B1363B4BCA341ADA8484454BE0B8D7
+ZIP: EvrimaTrailguide-1.27.0-Windows.zip
+Bytes: 154344853
+SHA256: C2AB34530E146CD332E4F154A5BBCF3066ACB24CAE70D17CF42EF2A47C0E9660
+Packaged application SHA256:
+40A9563B79ACF80AB4DDE120232EE54EC875BA4990BD5FB12F7C536878A0FF11
+
+EXACT STABLE BUILD
+- Release build completed successfully: 1,494 tests passed; zero failed or skipped.
+- Product, numeric file, installer and bundled README versions agree.
+- Standalone updater helper is bundled with the app and installer.
+- Final candidate functionality is retained; stable promotion changes version metadata
+  and corrects singular wording for one How to use search result.
+- Package generated from the reviewed local workspace. Public tag identifies the
+  release documentation; it is not a claim that private source is in this repository.
+
+REVIEWED CANDIDATE AND UI EVIDENCE
+- 102 mini-map headless checks passed: live marker updates, follow/pan handling,
+  hidden startup, synchronized settings, presets, shortcut transactions, themes,
+  independent opacity, four window sizes and passive-mode presentation.
+- All seven main tabs rendered at 980/1160/1600 layouts. Guide search, direct actions,
+  sparse-result width and expanded update settings reviewed. Screenshot generation
+  uses isolated sample profiles; real player history is not included.
+- Real GitHub installer download verified against published SHA256 and size in an
+  isolated cache. That older stable download was not installed or used to downgrade.
+- Real updater helper upgraded the preceding reviewed candidate after normal app
+  close: all 121 shipped files matched; all 14 existing profile files were unchanged;
+  Desktop, Start menu and pinned taskbar shortcuts were correct.
+- Installed candidate update opt-in made a real GitHub check, refused a downgrade,
+  and persisted opt-out when restored. Failed/cancelled downloads, channel changes,
+  invalid checksums, unsafe addresses, versions, metadata limits and helper requests
+  are covered by automated regression tests.
+
+NATIVE GAME / WINDOWS EVIDENCE DURING THIS DEVELOPMENT CYCLE
+- User physically pressed M in gameplay and confirmed show/hide without interrupting
+  movement. Injected-key tests are intentionally not used as proof of plain M.
+- User physically clicked a game checkbox through the locked transparent mini-map
+  twice and confirmed it toggled without the overlay taking interaction.
+- Terrain opacity 100 -> 20 -> 100 percent and panel opacity 94 -> 0 -> 94 percent
+  visibly blended independently over Evrima's server browser.
+- Map-only mode, mouse-edit recovery and automatic relocking when returning to
+  Evrima were observed. Original opacity and passive-mode preferences were restored.
+- Earlier live Status Report comparison matched Lat/Long/Alt to displayed precision.
+  Measured accepted-capture age then was median 31 ms / p95 44 ms across 120 samples.
+  This excludes polling wait and is not a promise of end-to-end gameplay latency.
+
+TRACKING LIMITS
+- Coordinates must be visible and readable in the Status Report. Hidden movement
+  cannot be tracked; the last accepted fix and its age remain visible.
+- A 0.5-second scan interval is a polling preference, not a guaranteed update deadline.
+- OCR agreement/plausibility checks can retain a pending fix rather than accept a
+  sign/digit error or implausible jump. History preserves gaps in unseen movement.
+- Latest native overlay checks used the server browser, not another fresh live
+  character tracking session. Saved-image and automated tests do not replace that.
+
+UPDATER / DEPLOYMENT LIMITS
+- Automatic installation is OFF by default; old check-on-launch settings do not opt in.
+- Stable releases are default; preview releases require a separate choice.
+- Verified updates install only after a normal close and successful profile save.
+- No app/game is force-closed; Windows is not restarted and the app is not auto-relaunched.
+- Installer hashes verify downloaded bytes against this release, not code signing.
+  The Windows installer remains unsigned.
+- Real network verification and real helper installation were tested separately on
+  the reviewed candidate. Current-release post-publication checks are recorded in
+  the release record when completed, without fabricating a future GitHub update.
+- This is not exhaustive testing of all GPUs, monitors, DPI arrangements, Windows
+  OCR languages, custom servers or all-users/UAC installations. Evidence is limited
+  to the tested machine and automated scenarios.
+- Game reference data and combat calculations remain estimates with their existing
+  build/evidence labels. This release does not certify new game rules or exact damage.
+
+PUBLICATION CHECKS
+Publication verifies each uploaded asset's SHA256 and size against the local files,
+then checks draft=false, prerelease=false and /releases/latest selecting v1.27.0.
+Screenshots come from the stable assembly and isolated sample profiles. Decorative
+scenery/portraits are illustrations, not official game renders or exact map locations.
+No private application source, player profile, game files or raw research is published.
