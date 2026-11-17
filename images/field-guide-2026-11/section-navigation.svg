@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title description">
+  <title id="title">FIND YOUR NEXT STOP</title>
+  <desc id="description">Folded map, route pin and island contour lines introduce navigation and Prime planning. Original decorative field-guide graphics for Evrima Trailguide, not game imagery.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2=".2"><stop stop-color="#08151D"/><stop offset=".62" stop-color="#0D222A"/><stop offset="1" stop-color="#123237"/></linearGradient>
+    <linearGradient id="veil"><stop stop-color="#0A1A23"/><stop offset="1" stop-color="#0A1A23" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="154" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="156" fill="url(#ground)"/>
+    <g fill="none" stroke="#78E6E2" stroke-width="1" opacity=".08">
+      <path d="M662-30c-36 72 43 119 103 99s70-70 148-31 79 142 181 93 124-23 151 25"/>
+      <path d="M683-30c-34 58 23 101 78 83s81-65 148-22 88 120 174 84 120-22 151 18"/>
+      <path d="M710-30c-37 45 5 80 48 67s89-57 150-15 82 99 167 78 119-20 151 7"/>
+      <path d="M746-30c-46 29-14 57 17 47s87-49 144-6 77 80 158 73 115-10 153 0"/>
+      <path d="M777-30c-22 32 24 28 60 12s51-27 85 7 62 78 141 65 107-8 147 8"/>
+    </g>
+    <rect x="0" width="890" height="156" fill="url(#veil)"/>
+    <g transform="translate(938 20)" stroke="#78E6E2" stroke-width="2" fill="none"><path d="m0 22 60-17 65 19 92-16v103l-86 21-65-23L0 128Z" fill="#123B3C"/><path d="M60 5 66 109M125 24l6 108" opacity=".4"/><path d="m15 78 33-17 34 12 31-28 45 16 47-25" opacity=".3"/><path d="M28 104c34-8 23-35 54-38 30-3 34 26 60 9s3-30 40-44" stroke-width="3" stroke-dasharray="5 7"/><circle cx="28" cy="104" r="5" fill="#78E6E2"/><path d="M191 26c0 10-11 20-11 20s-11-10-11-20a11 11 0 0 1 22 0Z" fill="#78E6E2" stroke="none"/><circle cx="180" cy="26" r="4" fill="#0A1C22"/></g>
+    <rect width="5" height="156" fill="#78E6E2"/>
+    <path d="M125 132H850" stroke="#78E6E2" stroke-width="1" opacity=".16"/>
+    <circle cx="65" cy="78" r="39" fill="#0A1B24" stroke="#78E6E2" stroke-width="1.5" opacity=".95"/>
+    <circle cx="65" cy="78" r="47" fill="none" stroke="#78E6E2" stroke-width="1" stroke-dasharray="2 8" opacity=".25"/>
+    <g transform="translate(65 78)" color="#78E6E2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-24-18-8-24 9-17 25-24V20L9 26-8 19-24 26Z M-8-24V19 M9-17V26"/><path d="M16-8c0 9-10 18-10 18S-4 1-4-8a10 10 0 0 1 20 0Z" fill="#0B2630"/><circle cx="6" cy="-8" r="3" fill="currentColor" stroke="none"/></g>
+    <text x="126" y="49" fill="#78E6E2" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">01 / NAVIGATION</text>
+    <text x="123" y="102" fill="#F0F7F3" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="800" letter-spacing=".6">FIND YOUR NEXT STOP</text>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="154.5" rx="18" fill="none" stroke="#31545C" stroke-width="1.5"/>
+</svg>
+
