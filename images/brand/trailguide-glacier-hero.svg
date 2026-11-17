@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title description">
+  <title id="title">Evrima Trailguide — Know your next move</title>
+  <desc id="description">Original decorative island artwork in glacier blue: layered mountain ridges, a winding river and a trail marker. This is a brand illustration, not an application screenshot or a map of an in-game location.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1600" height="560" rx="26"/></clipPath>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#091927"/><stop offset=".55" stop-color="#173e50"/><stop offset="1" stop-color="#577e91"/></linearGradient>
+    <linearGradient id="shade"><stop stop-color="#06121e"/><stop offset=".5" stop-color="#091c2a" stop-opacity=".92"/><stop offset="1" stop-color="#0a2436" stop-opacity="0"/></linearGradient>
+    <linearGradient id="river" x1="0" y1="1" x2=".7" y2="0"><stop stop-color="#78e5e8"/><stop offset=".6" stop-color="#60aabf"/><stop offset="1" stop-color="#bbecf1"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#c9f5fc" stop-opacity=".38"/><stop offset="1" stop-color="#a8e8ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grain" width="38" height="38" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".65" fill="#e1fbff" opacity=".055"/></pattern>
+  </defs>
+  <rect width="1600" height="560" rx="26" fill="url(#sky)"/>
+  <svg x="0" y="0" width="1600" height="560" viewBox="0 0 1600 560" overflow="hidden" clip-path="url(#frame)">
+    <ellipse cx="1280" cy="140" rx="420" ry="320" fill="url(#light)"/>
+    <circle cx="1315" cy="116" r="43" fill="#d4edf0" opacity=".7"/>
+    <path d="M690 345 790 273 852 284 957 146 1037 252 1112 229 1194 286 1274 182 1334 224 1400 198 1504 279 1600 244V560H690Z" fill="#6f96a3" opacity=".45"/>
+    <path d="m896 228 61-82 80 106-53-22-27-34-25 40Z" fill="#b4d4dd" opacity=".42"/>
+    <path d="M600 407 736 332 828 346 910 282 1010 349 1089 322 1172 376 1251 289 1335 333 1410 267 1500 319 1600 303V560H600Z" fill="#2e6473"/>
+    <path d="M794 405c112-54 174-39 264-17s118-14 195-26 158 39 347-6v204H794Z" fill="#173f4b"/>
+    <path d="M1242 342c-91 38-214 46-230 83-15 34 102 25 94 52-9 30-209 35-265 83h180c51-27 159-33 178-66 27-46-135-45-122-67 17-27 113-49 165-85Z" fill="url(#river)" opacity=".86"/>
+    <path d="M735 560c134-68 211-50 235-79 17-22-63-28-59-51 6-28 76-37 117-58-141-17-264 21-328 45-89 33-135 76-206 143Z" fill="#0d2e37"/>
+    <path d="M1600 399c-102 6-188 25-252 66-46 29-41 57-102 95h354Z" fill="#0b2831"/>
+    <g fill="#0a2730" opacity=".85">
+      <path d="m1462 431 11-133 10 132h-7l-2-121-3 122Z"/>
+      <path d="M1475 313q-64-46-111-13 63-10 110 25-8-65-51-82 31 34 43 73 41-68 97-52-55 17-88 59 73-39 117 4-62-21-120 8Z"/>
+      <path d="m1540 476 8-108 9 108Z"/>
+      <path d="M1550 379q-40-33-76-10 44-8 73 20-1-47-32-61 19 22 27 50 27-51 64-42-35 15-57 53 49-26 77 5-40-13-78 4Z"/>
+    </g>
+    <path d="M0 467C280 413 384 520 616 475s322 37 413 85H0Z" fill="#071b27"/>
+    <path d="M0 535c220-29 363 21 569-12s286 6 367 37H0Z" fill="#071520"/>
+    <rect width="1600" height="560" fill="url(#shade)"/>
+    <rect width="1600" height="560" fill="url(#grain)"/>
+    <g transform="translate(1248 312)">
+      <circle r="43" fill="none" stroke="#a0eef1" stroke-opacity=".16"/>
+      <circle r="29" fill="none" stroke="#a0eef1" stroke-opacity=".35"/>
+      <path d="M0 17C-5 8-17-5-17-14a17 17 0 0 1 34 0C17-5 5 8 0 17Z" fill="#92edf1"/>
+      <circle cy="-14" r="6" fill="#173b4d"/>
+      <path d="M0 26v32" stroke="#92edf1" stroke-width="2" stroke-dasharray="2 5" opacity=".7"/>
+    </g>
+    <g transform="translate(80 61)" fill="none" stroke="#a2ebef" stroke-width="2.5">
+      <path d="M21 0 42 21 21 42 0 21Z"/>
+      <path d="m21 8-8 21 8-5 8 5Z" fill="#a2ebef" stroke="none"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="139" y="87" fill="#c5eff2" font-size="21" font-weight="600" letter-spacing="4">EVRIMA TRAILGUIDE</text>
+      <text x="78" y="211" fill="#f0f7fb" font-size="77" font-weight="750" letter-spacing="-2">KNOW YOUR</text>
+      <text x="78" y="298" fill="#8ee7f1" font-size="77" font-weight="750" letter-spacing="-2">NEXT MOVE.</text>
+      <text x="82" y="351" fill="#c4d8e5" font-size="24">Your map. Your dinosaur. Your story.</text>
+      <path d="M82 391h64" stroke="#80e4ef" stroke-width="3"/>
+      <text x="82" y="439" fill="#e0edf4" font-size="18" font-weight="600" letter-spacing="1.2">MAPS   /   PRIME   /   MATCHUPS   /   MEMORIES</text>
+      <text x="82" y="497" fill="#91b5c6" font-size="16">A free Windows companion for The Isle: Evrima · Made by Roid</text>
+    </g>
+  </svg>
+  <rect x="1" y="1" width="1598" height="558" rx="25" fill="none" stroke="#82cbdc" stroke-opacity=".22" stroke-width="2"/>
+</svg>
