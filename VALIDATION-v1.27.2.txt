@@ -1,0 +1,78 @@
+EVRIMA TRAILGUIDE 1.27.2 - RELEASE VALIDATION
+Reviewed November 17, 2026 (America/Denver)
+
+PACKAGE IDENTITY
+Display/Product version: 1.27.2
+Numeric application and installer version: 1.27.2.2
+The numeric revision advances beyond the 1.27.2-dev.1 development package.
+Windows x64; Windows 10 build 19041 or newer. Runtime and updater helper included.
+The ZIP contains the installer and notices; it is not a portable application.
+
+AUTOMATED REGRESSION
+1,602 tests passed; zero failures and zero skipped tests.
+The full suite ran on the frozen stable source before the distribution was built.
+Coverage includes coordinate parsing/validation, growth readings, Prime planning,
+run identity, history/archive safety, updater behavior and UI state propagation.
+
+FIXES EXERCISED
+- Switching personal/Prime navigation updates the mini-map selector, target,
+  route-progress controls and pause state together. Appearance edits retain state.
+- Stale accepted positions pause main-map distance/direction; fresh readings
+  restore guidance. Manual fresh coordinates work with scanning paused.
+- Resumed growth decreases require distinct, recent corroborating readings before
+  offering a new-life decision. Stale/duplicate/backward readings cannot confirm it.
+- The map marker continues moving during the review while automatic run evidence
+  and inherited Prime routing wait. Both decisions release the pending workflow.
+- New-life confirmation archives before resetting. Archive failure preserves the
+  run. Manual edits survive reopening, and requested route fitting runs once after
+  either decision. Saved pins and route presets are retained.
+- Held positions preserve unseen-travel gaps and do not contaminate an old life's
+  export endpoint. Export immediately after Keep this life also preserves the gap.
+- Data-pack tooltip provides a compact compatibility summary with wrapped text,
+  current theme colours and a route to complete reference notes in Setup check.
+
+MINI-MAP AND LAYOUT
+115 headless mini-map checks passed, including route synchronization,
+marker propagation, follow/pan state, trail gaps, settings and passive presentation.
+Headless layout review covered 980, 1160 and 1600 pixel widths and compact 125%
+in-app scale, all seven main tabs and core popup controls. Both life-review choices
+and deferred route fitting were exercised. Glacier and Violet tooltip renders were
+checked for bounds, wrapping, binding and theme colours without opening a native
+popup. The large unwrapped pale tooltip reported before release is removed.
+
+LIVE EVIDENCE
+During the live review leading to this update, the user confirmed that accepted
+Status Report coordinates/growth matched, both maps updated promptly after moving,
+a new run produced a fresh Prime route on both maps, and entry to a needed migration
+zone advanced the route and mini-map destination. These are live user confirmations,
+not an instrumented end-to-end latency measurement on the final stable binary.
+The subsequent fixes were verified through regression and headless UI checks.
+
+INSTALLATION
+The local upgrade used the exact release installer after Trailguide was closed.
+All 121 installed package files matched the package. All existing profile files
+were unchanged by installation. Desktop, Start menu and pinned taskbar shortcut
+targets were verified. A local pre-upgrade application/profile backup was retained.
+
+LIMITS
+- Coordinates must be visible/readable in Status Report. Hidden movement cannot
+  be tracked; unseen travel remains a gap. Polling cadence is not a latency promise.
+- Growth alone cannot identify every new life. Use New run after death, respawning
+  or changing lives, especially when the new dinosaur has similar/higher growth.
+- No new physical M-key, cross-process click-through or transparency test was
+  performed for this stable packaging pass. Headless checks are not native-game
+  focus tests; prior native overlay evidence is recorded with version 1.27.0.
+- Routes use mapped reference zones and straight-line distances, not terrain-safe
+  paths or the server's current active-zone flags. Mapped visits remain attempts.
+- Coverage does not include every GPU, monitor/DPI arrangement, OCR language,
+  custom server or all-users/UAC installation. Game/combat values remain references.
+- Automatic updates remain opt-in with stable as the default channel. Installation
+  waits for normal app closure and a successful save; no game is force-closed.
+- The installer is unsigned. Checksums verify release bytes, not code signing.
+
+PUBLICATION
+The publisher verifies all four release assets by size and SHA256, public tag and
+documentation commit, and requires draft=false, prerelease=false, latest=v1.27.2.
+Only reviewed release documentation/checksums and the landing page change in the
+public repository. Existing showcase images are retained and labeled as 1.27.1.
+Private source, player profiles, raw observations and backups are not published.
