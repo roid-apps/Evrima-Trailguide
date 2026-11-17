@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.0/EvrimaTrailguide-Setup-1.27.0.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.27.0-2455F5?style=for-the-badge&amp;labelColor=112B3D" alt="Download stable 1.27.0 for Windows"></a>
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.27.0"><img src="https://img.shields.io/badge/WHAT'S_NEW-MINI--MAP_STUDIO-73DBE8?style=for-the-badge&amp;labelColor=112B3D" alt="Explore the 1.27.0 release"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.1/EvrimaTrailguide-Setup-1.27.1.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.27.1-2455F5?style=for-the-badge&amp;labelColor=112B3D" alt="Download stable 1.27.1 for Windows"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.27.1"><img src="https://img.shields.io/badge/WHAT'S_NEW-TRACKING_%26_RECOVERY-73DBE8?style=for-the-badge&amp;labelColor=112B3D" alt="Explore the 1.27.1 release"></a>
   <a href="https://youtu.be/U__SdPqlwzQ"><img src="https://img.shields.io/badge/WATCH_THE-WALKTHROUGH-38556A?style=for-the-badge&amp;labelColor=112B3D" alt="Watch the full walkthrough"></a>
 </p>
 
@@ -14,9 +14,11 @@ Free to use. No account. Your screen readings and saved runs stay on your PC.
 
 ## Your map, your atmosphere
 
-![Trailguide 1.27.0 Glacier workspace with the map, dinosaur and Prime checklist together](images/v1.27.0/glacier-workspace.png)
+![Trailguide 1.27.1 Glacier workspace with the map, dinosaur and Prime checklist together](images/v1.27.1/glacier-workspace.png)
 
-**New in 1.27.0:** a customizable mini-map studio, improved location reacquisition, atmospheric island scenery, built-in help and optional updates that install after you close Trailguide.
+**New in 1.27.1:** press **Plan my Prime route** to find nearby sanctuary, migration and patrol stops still needed. The route adapts to your accepted position and recorded progress. This update also brings faster verified location recovery after long travel, resilient growth scanning, safer history imports and profile recovery, and a cleaner compact layout with clearer combat results.
+
+Press the highlighted button on Navigate, then open Status Report for a fresh location. Mapped visits remain attempts until verified in-game; diet, nesting and other conditions still need their own checks. All the Mini-map Studio customization, island scenery, built-in help and opt-in GitHub updating from 1.27.0 remain included.
 
 | Find your way | Grow with a plan | Know your matchup |
 | --- | --- | --- |
@@ -28,7 +30,7 @@ The **Glacier** appearance pairs ice-white panels with cobalt controls. Choose a
 
 | A compact companion | A transparent Ghost HUD |
 | --- | --- |
-| ![Actual compact mini-map with sample navigation](images/v1.27.0/mini-map-compact.png) | ![Actual passive map-only mini-map with adjustable transparency](images/v1.27.0/mini-map-only.png) |
+| ![Actual compact mini-map with sample navigation](images/v1.27.1/mini-map-compact.png) | ![Actual passive map-only mini-map with adjustable transparency](images/v1.27.1/mini-map-only.png) |
 
 - **Start with a preset:** Gameplay, Ghost HUD, Explorer or High visibility.
 - **Choose your frame:** Glacier, Jungle canopy, Blood trail, Bone relic, Highlands or Minimal.
@@ -40,7 +42,7 @@ The **Glacier** appearance pairs ice-white panels with cobalt controls. Choose a
 <details>
 <summary><strong>Explore the mini-map controls</strong></summary>
 
-![Mini-map settings in Trailguide 1.27.0](images/v1.27.0/mini-map-settings.png)
+![Mini-map settings in Trailguide 1.27.1](images/v1.27.1/mini-map-settings.png)
 
 Named waypoints, ordered route stops and navigation targets work alongside your chosen presentation. Appearance/layout resets retain your route, destination and shortcuts.
 
@@ -50,7 +52,7 @@ Trailguide reads **your own visible Status Report coordinates**. Open that scree
 
 ## See the dinosaur. Explore the numbers.
 
-![Combat workspace with species portraits, growth silhouettes and reference hit estimates](images/v1.27.0/combat-workspace.png)
+![Combat workspace with species portraits, growth silhouettes and reference hit estimates](images/v1.27.1/combat-workspace.png)
 
 Choose both dinosaurs and their moves, then adjust growth to see reference stats and estimates change together. Separate mutation scenarios and calculation details are available when you want a closer look.
 
@@ -59,7 +61,7 @@ These are **reference comparisons**, not guaranteed fight outcomes. Timing, posi
 <details>
 <summary><strong>Meet the 22 dinosaur portraits</strong></summary>
 
-![The dinosaur portrait collection retained in Trailguide 1.27.0](images/v1.26.0/dinosaur-portraits.png)
+![The dinosaur portrait collection retained in Trailguide 1.27.1](images/v1.26.0/dinosaur-portraits.png)
 
 AI-assisted illustrations based on Evrima game-model references. Measured silhouettes remain the growth and size reference.
 
@@ -78,13 +80,13 @@ AI-assisted illustrations based on Evrima game-model references. Measured silhou
 <details>
 <summary><strong>A guide that stays beside the app</strong></summary>
 
-![The searchable How to use guide with setup steps and topic cards](images/v1.27.0/how-to-use.png)
+![The searchable How to use guide with setup steps and topic cards](images/v1.27.1/how-to-use.png)
 
 </details>
 
 ## Start your first run
 
-1. **Install:** [download stable 1.27.0](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.0/EvrimaTrailguide-Setup-1.27.0.exe). Close Trailguide before upgrading; keep a profile backup.
+1. **Install:** [download stable 1.27.1](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.1/EvrimaTrailguide-Setup-1.27.1.exe). Close Trailguide before upgrading; keep a profile backup.
 2. **Set up:** open **Setup check**, then Evrima’s **Status Report**. Choose **Scan setup → Auto setup** and inspect the capture areas.
 3. **Explore:** start scanning, confirm a fresh reading and select **Show mini-map**. Hover the game’s growth bar to reveal the precise percentage.
 
@@ -92,7 +94,7 @@ AI-assisted illustrations based on Evrima game-model references. Measured silhou
 
 **Choose how you update:** automatic installation starts **off**. Open **How to use → Stay up to date → Open update settings** to opt in. Trailguide checks official GitHub releases, verifies the installer and waits for a normal app close before installing. Stable is the default channel; preview releases are a separate choice. Your game is never force-closed.
 
-[Full walkthrough](https://youtu.be/U__SdPqlwzQ) · [Quick introduction](https://youtube.com/shorts/b4B2yn6n7Ws) · [1.27.0 release notes](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.27.0)
+[Full walkthrough](https://youtu.be/U__SdPqlwzQ) · [Quick introduction](https://youtube.com/shorts/b4B2yn6n7Ws) · [1.27.1 release notes](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.27.1)
 
 The videos introduce the core workflow and predate the current interface.
 
@@ -101,9 +103,9 @@ The videos introduce the core workflow and predate the current interface.
 
 Windows x64 · Windows 10 build 19041 or newer · .NET runtime included. English Windows OCR support may need enabling separately.
 
-The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.0/EvrimaTrailguide-1.27.0-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
+The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.1/EvrimaTrailguide-1.27.1-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
 
-[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.0/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.0/VALIDATION-v1.27.0.txt) · [Privacy statement](PRIVACY.md)
+[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.1/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.1/VALIDATION-v1.27.1.txt) · [Privacy statement](PRIVACY.md)
 
 Normal upgrades retain your profile. Automatic installation is for installed copies; all-users installations may require Windows administrator approval. Turning automatic updates off or changing channel cancels the pending update selection.
 

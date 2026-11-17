@@ -1,6 +1,6 @@
 # Privacy statement — Evrima Trailguide
 
-**Last updated: November 16, 2026 · Updated for: Evrima Trailguide v1.27.0 and the repository that hosts it**
+**Last updated: November 17, 2026 · Updated for: Evrima Trailguide v1.27.1 and the repository that hosts it**
 
 Evrima Trailguide is a free desktop application for Windows, made by an independent developer (Roid). It is not a service, it has no accounts, and there is nothing to log into.
 
@@ -30,7 +30,7 @@ The profile is stored in `%LOCALAPPDATA%\Roid\Evrima Trailguide`:
 | --- | --- |
 | `settings.json` | Preferences, capture regions, current run, lineage, waypoints/routes, expedition plans and personal notes. |
 | `run-history.jsonl` | Your own runs: positions read from your Status Report, growth readings, and objective progress. |
-| `recovery/` and backup/restore files | Seven rolling daily profile snapshots, retained manual/pre-restore backups and pending restore data. |
+| `recovery/` and backup/restore files | Seven rolling daily profile snapshots, retained manual/pre-restore backups, raw original files for restore rollback, restore journals and retained failed restore requests. |
 
 Isolated demo profiles use a separate temporary folder. Manually exported profiles, route cards, run files and waypoint files go where you choose; they can contain locations and private notes. Diagnostic files may be created locally. Review files before sharing them. Backups are ordinary local files, not encrypted cloud storage.
 

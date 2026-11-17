@@ -1,0 +1,113 @@
+EVRIMA TRAILGUIDE 1.27.1 - RELEASE VALIDATION
+Reviewed November 17, 2026 (America/Denver)
+
+PACKAGE IDENTITY
+Display/Product version: 1.27.1
+Numeric application and installer version: 1.27.1.0
+Architecture: Windows x64; minimum Windows 10 build 19041
+Application and updater helper are self-contained; no separate .NET installation required.
+The Windows ZIP contains the installer and notices; it is not a portable app.
+
+Installer: EvrimaTrailguide-Setup-1.27.1.exe
+Bytes: 154795076
+SHA256: 4FDCE40179D4F273A4827E6E47DD70DC650960D6653F2F53DBC0EA40EC728E21
+ZIP: EvrimaTrailguide-1.27.1-Windows.zip
+Bytes: 154337585
+SHA256: DE9AB5F607A87E21AB9F9B01D2BCE196EFA42FBD8D7D9270C08DCBFBD0FEBAB7
+Packaged application SHA256:
+5C73922F99DB42F2867E7FADDFF292A32B407E1C209776B7D4413BABA869D83E
+
+EXACT STABLE BUILD AND INSTALLATION
+- Final release build completed successfully: 1,576 tests passed, zero failed,
+  skipped or aborted. Earlier failed development runs are not the release report.
+- Product, file, installer and bundled README versions agree. Updater helper is present.
+- The installer streamed directly from inside the ZIP hashes identically to the
+  standalone installer. ZIP contents are installer, README, license, checksums and
+  third-party notices; no application source or debug files are included.
+- Real per-user installer completed with exit 0 after normal application close.
+- All 121 installed package files match the tested distribution. All 21 existing
+  profile files were unchanged by installation; pre-upgrade backups were retained.
+- Desktop, Start menu and pinned taskbar shortcut targets point to the installed app.
+- Installed application launched and the highlighted Prime route button was visually
+  checked with the existing Violet theme and 125% interface scale.
+- Package generated from the reviewed local workspace. The public tag identifies
+  release documentation, not a claim that private application source is published.
+
+TRACKING AND GROWTH
+- Focused tracking regression suite: 216 passed (included in the full suite).
+- Long-travel reacquisition requires plausible elapsed travel, complete coordinates,
+  corroborating same-frame reads and three separate fresh captures beyond 2 km.
+- Stale captures, missing signs, collapsed digits, suspicious altitude and impossible
+  jumps remain guarded. Blind-travel allowance remains bounded to five minutes.
+- A deterministic probe with 600 seconds of unseen travel and 0.5-second capture
+  spacing accepted 1,999/2,000 m travel in 1.0 second and 2,001/4,000 m in 1.5 seconds.
+  This tests the confirmation policy, not end-to-end game or OCR performance.
+- Failed status-text OCR no longer suppresses the growth stage. Cancellation,
+  game focus, run changes, calibration and timestamp freshness remain checked.
+- Actual Windows OCR (en-US) processed two supplied saved Status Report images.
+  Repeated tests returned exact coordinates for 80 normal reads and 40 verified
+  reads, and exact 53.898% / 51.04% growth for all 80 growth reads across two crops.
+  These are repeated reads of two images, not a broad image corpus or live game test.
+- Offline coordinate pipeline medians were 9-33 ms; corroborating verification
+  medians 14-24 ms; growth medians 25-43 ms. Polling, desktop capture and gameplay
+  latency are excluded. These numbers are not promised update deadlines.
+
+ONE-CLICK PRIME PLANNING
+- Independent workflow and routing run: 87 passed, including 12 new user-workflow
+  cases. These overlap the full suite and are not additional independent test totals.
+- Covers fresh spawn, stale/missing position, first accepted fix, scanner startup,
+  mapped arrivals, manual and server-confirmed objectives, detours, new runs and
+  unsupported ruleset changes. Saved pins and route presets are preserved.
+- Planner compares route candidates against the older nearest-to-spawn policy,
+  applies bounded route improvement and avoids continually reshuffling on tiny moves.
+- Headless UI checks cover automatic first-fix route framing, cancellation and
+  preservation of later user pan/zoom. Both navigation surfaces receive route updates.
+- Mapped sanctuary, migration and patrol visits remain attempts, not server proof.
+  Routes use straight-line distances; they are not terrain-safe paths or guarantees
+  of globally optimal routes or server-active zones. Diet, nesting, mass migration
+  and other Prime requirements need their own checks.
+
+BACKUPS AND HISTORY
+- Focused safety run: 99 passed (overlaps the full suite).
+- Recovery tested at restore interruption/failure phases, with large raw originals,
+  missing originals, invalid recovery paths and cleanup failures after commitment.
+- Validated restore journals precede mutation. Rollback preserves original profile
+  files; failed automatic requests are retained without an endless startup retry.
+- History limits are enforced on the merged result before live/saved state changes.
+  Position/event/mutation overflow and subsequent save/reopen behavior are covered.
+- A completed foreign snapshot can promote the matching earlier in-progress record;
+  already completed local records keep conservative conflict handling.
+
+MINI-MAP AND UI
+- 102 headless mini-map checks passed: live marker propagation, follow/pan behavior,
+  trail gaps, synchronized settings, shortcut transactions, independent opacity,
+  themes, layouts and passive-mode presentation.
+- 14 themes/custom palettes x seven main tabs and four popup contents rendered.
+  Four compact/scaled combinations x seven tabs also rendered and were reviewed.
+- At 1160 x 710 with 125% in-app scale, initial map height is 222 px, or 209 px
+  with Prime guidance visible. Compact tools remain available through their menu.
+- Tabs retain a single ordered row; keyboard selection brings the tab into view.
+  Paired direct/bleed results precede large artwork; previously unnamed key inputs
+  now have context-specific automation labels.
+- Prime button contrast is 11.12:1 normally, 12.27:1 hovered and 8.48:1 pressed,
+  retained across themes using explicit semantic palette resources.
+- Six release screenshots were rendered from stable application controls with an
+  isolated sample profile and checked for layout, labels, transparency and private
+  data. Their coordinates and growth are sample values, not live tracking proof.
+
+LIMITS AND PUBLICATION
+- No new physical M-key, cross-process click-through or live character tracking
+  session was performed for 1.27.1. Headless tests and saved-image OCR do not replace
+  native gameplay tests. Earlier native overlay evidence is in the 1.27.0 report.
+- Coordinates must be visible/readable in Status Report. Hidden movement cannot be
+  tracked; unseen travel remains a gap. A 0.5-second setting is a polling preference.
+- Testing does not cover every GPU, monitor/DPI combination, OCR language, custom
+  server or all-users/UAC installation. Game and combat values remain references.
+- Automatic updates remain opt-in; stable is the default channel. Verified updates
+  install only after normal close and successful profile save. No game is force-closed.
+- Installer remains unsigned. SHA256 validates bytes against the release; it is
+  not a substitute for code signing.
+- Publication verifies all four uploaded assets by size and SHA256, checks tag and
+  documentation commit, and requires draft=false, prerelease=false and latest=v1.27.1.
+- Only reviewed public documentation and six screenshots update the repository.
+  No private source, player profile, game files or raw research is published.
