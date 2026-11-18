@@ -18,7 +18,7 @@ No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVA
 
 ## 🧭 Navigate
 
-![Find your next stop — a route marker above island terrain lines](images/field-guide-2026-11/section-navigation.svg)
+![Find your next stop — jade-green jungle and limestone cliffs in midday light](images/field-guide-2026-11/section-navigation.jpg)
 
 ![Actual Glacier navigation workspace: Gateway map, current dinosaur and Prime checklist](images/v1.27.1/glacier-workspace.png)
 
@@ -32,7 +32,7 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 ## 🗺️ Mini-map studio
 
-![Your map. Your atmosphere. — an overlay frame with island-inspired accents](images/field-guide-2026-11/section-minimap.svg)
+![Your map. Your atmosphere. — a moonlit cobalt coast framed by weathered bones](images/field-guide-2026-11/section-minimap.jpg)
 
 | Keep the essentials close | Give the map more room |
 | --- | --- |
@@ -52,7 +52,7 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 ## 🦕 Dinosaur collection
 
-![Built around your dinosaur — a growth and species field-guide graphic](images/field-guide-2026-11/section-dinosaurs.svg)
+![Built around your dinosaur — Ceratosaurus and Stegosaurus in an ochre-lit landscape](images/field-guide-2026-11/section-dinosaurs.jpg)
 
 ![Trailguide’s collection of 22 illustrated dinosaur portraits, with species labels](images/v1.26.0/dinosaur-portraits.png)
 
@@ -62,7 +62,7 @@ The portraits are AI-assisted illustrations based on Evrima game-model reference
 
 ## 🩸 Combat & survival
 
-![Know your matchup — claw marks and a bone motif](images/field-guide-2026-11/section-combat.svg)
+![Know your matchup — Ceratosaurus and Carnotaurus beneath grey storm clouds](images/field-guide-2026-11/section-combat.jpg)
 
 ![Actual combat workspace comparing two dinosaurs, growth silhouettes, direct hits and bleed estimates](images/v1.27.1/combat-workspace.png)
 
@@ -72,7 +72,7 @@ These are **reference comparisons**, not guaranteed fight outcomes. Timing, posi
 
 ## 📖 Your island field kit
 
-![Every life leaves a trail — a field journal and recorded route](images/field-guide-2026-11/section-journal.svg)
+![Every life leaves a trail — bones and dinosaur footprints disappearing into violet fog](images/field-guide-2026-11/section-journal.jpg)
 
 Seven workspaces keep the next decision within reach:
 
@@ -92,7 +92,7 @@ Seven workspaces keep the next decision within reach:
 
 ## 🌋 Start your next run
 
-![Step onto the island — a trail leading toward a volcanic horizon](images/field-guide-2026-11/section-start.svg)
+![Step onto the island — dinosaur eggs on a black-sand beach at coral dawn](images/field-guide-2026-11/section-start.jpg)
 
 1. **Install:** [download stable 1.27.2 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/EvrimaTrailguide-Setup-1.27.2.exe). Close Trailguide before upgrading.
 2. **Set up:** open **Setup check**, then the game’s **Status Report**. Use **Scan setup → Auto setup** and inspect the capture areas.
@@ -150,7 +150,7 @@ Made by **Roid** · Discord: **r_o_i_d** · [Email](mailto:b_greenspan@yahoo.com
 
 Application screenshots show real controls with isolated sample profiles; the workspace and mini-map views are from 1.27.1 and represent the layouts retained in 1.27.2. The portrait collection image is from 1.26.0. They are not proof of live tracking during a screenshot session.
 
-The cinematic header, scenery and portraits are decorative AI-assisted illustrations, not gameplay captures or exact map imagery. Section graphics are original vector artwork. Trailguide is an independent fan project, not affiliated with The Isle’s developers. This repository hosts downloads and documentation; the application source is private.
+The cinematic header, scenery and portraits are decorative AI-assisted illustrations, not gameplay captures or exact map imagery. Section banners are AI-assisted concept illustrations checked against visual references. Trailguide is an independent fan project, not affiliated with The Isle’s developers. This repository hosts downloads and documentation; the application source is private.
 
 The header’s Ceratosaurus artwork was checked against in-game screenshots and the visual references on [Evrima Quick Guide](https://www.evrimaquickguide.com/playables/quick-facts-carnivores/ceratosaurus).
 
