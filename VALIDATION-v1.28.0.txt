@@ -1,0 +1,91 @@
+EVRIMA TRAILGUIDE 1.28.0 - STABLE VALIDATION
+Validated: 2026-11-18 15:47 UTC
+Product version: 1.28.0
+Windows file/assembly version: 1.28.0.7
+Target: Windows x64, Windows 10 build 19041 or later; self-contained .NET 10.
+
+RESULT
+The stable build passed the automated checks below and the current-user installer
+upgrade. These results apply to the packaged bytes identified by SHA256SUMS.txt.
+
+AUTOMATED REGRESSION
+1,724 tests executed; 1,724 passed; 0 failed, skipped or inconclusive.
+The full solution test run was part of the distribution build. Coverage includes
+coordinate parsing and validation, stale/future samples, capture decisions, route
+progress, settings, growth, combat/reference behavior and updater safeguards.
+
+LAYOUT AND THEME
+373 all-tab layout checks; 0 failures. All seven workspaces exercised in compact
+and larger layouts, including 125% interface scaling. Inputs, important results,
+expanders, history route framing and compact toolbar controls were checked.
+Separate main-layout render checks passed at 980, 1160 and 1600 widths, including
+1160 at 125% interface scale, route updates and later manual camera choices,
+new-life prompts, help navigation, accessible tab headers and settings panels.
+Primal theme checks passed across all seven tabs in Glacier, Violet and Biolume.
+Checked minimum panel opacity (70%), artwork/edge extremes, Classic restoration,
+independent mini-map preferences and palette changes. Tested foreground/background
+text pairs and selected/inactive tab labels met the 4.5:1 contrast threshold.
+All these checks used isolated profiles and headless WPF rendering; they did not
+activate a native window, register game hotkeys or run the live screen scanner.
+
+MINI-MAP
+122 headless checks passed. Tested presentation/settings behavior, frame artwork,
+opacity/transparent rendering, compact layouts, route/pin redraw notifications and
+state changes. Main-layout checks covered the mini-map settings sections.
+No new physical in-game M-key, mouse click-through or game-focus test was performed
+for this release packaging pass. Headless tests cannot prove those OS interactions.
+
+NATIVE WINDOWS OCR REPLAY
+6 of 6 recorded-image reacquisitions passed, using two previously failing Status
+Report screenshots, repeated three times each, with actual Windows OCR and the
+production recognition-to-view-model pipeline. Each recovery took four captures
+(three corroborated) at the configured 500 ms cadence; observed wall time was
+1,540-1,562 ms. Exact coordinates, fresh timestamps, trail segment breaks and both
+map-binding notifications were checked, followed by ordinary movement continuation.
+This is a recorded-image integration test, not live screen capture or a guaranteed
+in-game update time. The complete Lat/Long/Alt numbers must be visible in Status
+Report; hidden movement cannot be tracked. Source screenshots and raw logs remain
+local and are not included in the public release.
+
+SCREENSHOT REVIEW
+Eight fresh actual-control PNGs were visually reviewed: Primal and Glacier
+Navigate, Primal combat and growth, history replay, How to use, mini-map studio
+and compact mini-map. Sample profiles, routes and coordinates were isolated from
+the player's data. Scanner was paused; these are illustrative product screenshots,
+not proof of live tracking. Scenic illustrations are decorative AI-assisted art.
+
+INSTALLER AND SHORTCUTS
+Current-user upgrade completed with installer exit 0. All 121 installed files
+matched the package byte-for-byte. All 21 existing profile files were unchanged.
+Desktop, Start menu and pinned taskbar shortcut targets point to the installed
+stable 1.28.0 executable with no preview or alternate-profile arguments.
+A local app/profile backup was retained before installation. No running game or
+Trailguide instance was force-closed. Shortcut targets and executable hashes were
+verified; the real player profile was not launched for testing.
+
+PACKAGE CONTENTS
+App staging contains exactly 121 expected files: the application, updater helper
+and 119 manifest-listed map/compass/silhouette assets. No unexpected files, empty
+files or reparse points; no user profiles, private source, captures or debug symbols.
+The ZIP is an installer bundle, NOT a portable app. Its five entries are the setup
+executable, README.txt, THIRD-PARTY-NOTICES.txt, LICENSE.txt and SHA256SUMS.txt.
+The nested setup executable matches the standalone installer.
+Application SHA256: 3cf274bd7b5c97d2bf6fc94af894662963bde481e98f50ab62e718635c1b3d8c
+Updater SHA256: f08d0cd567c20a2b377aa596e02aa1321da02fb6912b2fa3c51afd24fb0ebb0f
+
+BUILD TRACEABILITY
+Built from the reviewed local workspace, including unpublished fixes. No private
+source commit is claimed as the exact build identity. 488 production/test/installer
+and asset inputs were hash-frozen before packaging and unchanged at validation.
+Public GitHub publication is limited to approved documentation, eight screenshots
+and four release assets; private application source and local evidence stay local.
+
+DATA REVIEW
+Public metadata reviewed 18 November 2026. Public ruleset 0.21.772 / build 24664737
+remains separate from HordeTest announcements. Historical combat, growth and diet
+references retain their original source/build caveats. This release does not claim
+new live validation of every game mechanic or current server-zone activation.
+
+PACKAGE SHA256
+afeb53c8c850e22226232292818e99aada04c3e47dd79c4412f27f0dd2bb3780  EvrimaTrailguide-Setup-1.28.0.exe
+fdc9dfd86d96410b68e8375e1ffd0084f7dba194d4b697da94c28b755ecfbdaf  EvrimaTrailguide-1.28.0-Windows.zip

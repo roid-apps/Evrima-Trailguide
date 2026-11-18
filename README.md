@@ -3,30 +3,38 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/EvrimaTrailguide-Setup-1.27.2.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.27.2-5EEAD4?style=for-the-badge&amp;labelColor=102A2B" alt="Download stable 1.27.2 for Windows"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-Setup-1.28.0.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.28.0-5EEAD4?style=for-the-badge&amp;labelColor=102A2B" alt="Download stable 1.28.0 for Windows"></a>
   <a href="https://youtu.be/U__SdPqlwzQ"><img src="https://img.shields.io/badge/WATCH_THE-WALKTHROUGH-FFCE73?style=for-the-badge&amp;labelColor=102A2B" alt="Watch the full walkthrough"></a>
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.27.2"><img src="https://img.shields.io/badge/EXPLORE-THE_LATEST_UPDATE-79CAFF?style=for-the-badge&amp;labelColor=102A2B" alt="Read the 1.27.2 release notes"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.0"><img src="https://img.shields.io/badge/EXPLORE-THE_LATEST_UPDATE-79CAFF?style=for-the-badge&amp;labelColor=102A2B" alt="Read the 1.28.0 release notes"></a>
 </p>
 
 **Find your way. Plan your Prime. Keep your story.** Evrima Trailguide is a free Windows companion for **The Isle: Evrima**. Bring your map, dinosaur, objectives and run history together—then take a mini-map styled for the island back into the game.
 
 🗺️ **Your own location** · 🧭 **Prime route planning** · 🦕 **Dinosaur references** · 🩸 **Combat estimates** · 📖 **Run replay**
 
-**[Download for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/EvrimaTrailguide-Setup-1.27.2.exe)** · [Watch the walkthrough](https://youtu.be/U__SdPqlwzQ) · [Report a bug / share an idea](https://github.com/roid-apps/Evrima-Trailguide/issues)
+**[Download for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-Setup-1.28.0.exe)** · [Watch the walkthrough](https://youtu.be/U__SdPqlwzQ) · [Report a bug / share an idea](https://github.com/roid-apps/Evrima-Trailguide/issues)
 
 No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVACY.md)
+
+## 🦴 Primal — choose your atmosphere
+
+![Actual Primal navigation workspace with jungle cliffs, glass panels and a large map](images/v1.28.0/primal-navigation.png)
+
+**Jungle cliffs. Storm-lit confrontations. Moonlit bones.** The new optional **Primal** appearance brings six survival scenes, blood-and-bones imagery, translucent panels and subtle vine borders into the app.
+
+Choose **Navigate → Tools → Appearance → Primal · blood & bones**, then tune scenery strength, panel opacity, edge details and motion. Prefer a clean field kit? Keep Classic or switch the scenery off. Existing preferences are retained; new profiles start with Classic.
 
 ## 🧭 Navigate
 
 ![Find your next stop — jade-green jungle and limestone cliffs in midday light](images/field-guide-2026-11/section-navigation.jpg)
 
-![Actual Glacier navigation workspace: Gateway map, current dinosaur and Prime checklist](images/v1.27.1/glacier-workspace.png)
+![Actual Glacier navigation workspace: Gateway map, current dinosaur and Prime checklist](images/v1.28.0/glacier-navigation.png)
 
 **One clear starting point: Plan my Prime route.** Open Evrima’s Status Report for a fresh position, then let Trailguide select nearby sanctuary, migration and patrol stops your run still needs. The plan adapts to accepted positions and recorded progress, with the next destination shared across the main map and mini-map.
 
 Place your own nest, water, danger or meeting pins. Search the map, choose useful layers, and keep attempted and confirmed objectives distinct.
 
-**New in 1.27.2:** synchronized route controls, clearer stale guidance, a new-life progress check, safer history exports and compact themed tooltips. [See the fixes →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.27.2)
+**New in 1.28.0:** a larger map by default, compact controls across all seven workspaces, stronger OCR reacquisition, immediate pin/route redraws and smarter replay framing. [See the fixes →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.0)
 
 Start a **New run** after respawning or changing lives. Routes use mapped reference zones and straight-line distances, not guaranteed safe paths or live server-zone flags. Mapped visits remain attempts until verified in game; diet, nesting and other Prime requirements need their own checks.
 
@@ -34,10 +42,9 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 ![Your map. Your atmosphere. — a moonlit cobalt coast framed by weathered bones](images/field-guide-2026-11/section-minimap.jpg)
 
-| Keep the essentials close | Give the map more room |
-| --- | --- |
-| ![Actual compact mini-map with a sample route destination](images/v1.27.1/mini-map-compact.png) | ![Actual map-only mini-map layout with its window chrome hidden](images/v1.27.1/mini-map-only.png) |
-| A compact companion for your next stop. | Map-only presentation with minimal chrome. |
+![Actual compact mini-map with a sample route destination](images/v1.28.0/mini-map-compact.png)
+
+A compact companion for your next stop, with a map-only option when you want less chrome.
 
 **Jungle canopy. Blood trail. Bone relic. Highlands. Glacier. Minimal.** Pick a frame, then tune the mini-map to your play style.
 
@@ -46,7 +53,7 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 - 💾 **Save your setup:** Gameplay, Ghost HUD, Explorer and High visibility presets, plus up to eight named layouts.
 - ⚙️ **Edit from the main app:** **Map settings** beside **Show mini-map** works even while the overlay is hidden.
 
-![Actual mini-map settings with presentation, layer and interaction controls](images/v1.27.1/mini-map-settings.png)
+![Actual mini-map settings with presentation, layer and interaction controls](images/v1.28.0/minimap-customize.png)
 
 **Refresh from Status Report.** Trailguide reads your own visible coordinates. When they are hidden, it keeps the last accepted position and shows its age; it cannot reveal other players or track unseen movement. Borderless/windowed play is intended.
 
@@ -60,11 +67,18 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 The portraits are AI-assisted illustrations based on Evrima game-model references. Measured silhouettes remain the growth and size reference; the collection is not a claim that every species is currently playable on every game branch.
 
+<details>
+<summary><strong>🦕 Open the new Growth Studio view</strong></summary>
+
+![Actual compact Growth Studio with reference silhouettes, growth controls and statistics](images/v1.28.0/primal-growth.png)
+
+</details>
+
 ## 🩸 Combat & survival
 
 ![Know your matchup — Ceratosaurus and Carnotaurus beneath grey storm clouds](images/field-guide-2026-11/section-combat.jpg)
 
-![Actual combat workspace comparing two dinosaurs, growth silhouettes, direct hits and bleed estimates](images/v1.27.1/combat-workspace.png)
+![Actual combat workspace comparing two dinosaurs, growth silhouettes, direct hits and bleed estimates](images/v1.28.0/primal-combat.png)
 
 **Choose both dinosaurs. Pick their moves. Adjust growth.** Watch reference stats and hit estimates change together, with separate direct-damage and bleed results. Explore mutation scenarios and open the calculation details when you want to understand an estimate.
 
@@ -86,16 +100,25 @@ Seven workspaces keep the next decision within reach:
 | 🧿 **Compass guide** | Recognize the direction, resource and zone symbols on Evrima’s compass. |
 | 💡 **How to use** | Search 15 offline help topics and jump straight to the relevant controls. |
 
-![Actual How to use workspace with first-session steps and searchable help topics](images/v1.27.1/how-to-use.png)
+<details>
+<summary><strong>📖 Explore the updated route replay</strong></summary>
 
-**Keep the atmosphere—or turn it down.** Choose a theme, adjust scenery strength or switch decorative artwork off in **Appearance**. Glacier pairs ice-white panels with cobalt controls; existing users keep their selected theme. Profile backups give your settings and recorded lives a recovery copy.
+![Actual History and replay workspace with an isolated sample archive](images/v1.28.0/history-replay.png)
+
+Selecting a saved life frames its route once. Playback and later resizing preserve your chosen camera view.
+
+</details>
+
+![Actual How to use workspace with first-session steps and searchable help topics](images/v1.28.0/how-to-use.png)
+
+**Keep the atmosphere—or turn it down.** Choose a theme, adjust scenery strength or switch decorative artwork off in **Navigate → Tools → Appearance**. Glacier pairs ice-white panels with cobalt controls; existing users keep their selected theme. Profile backups give your settings and recorded lives a recovery copy.
 
 ## 🌋 Start your next run
 
 ![Step onto the island — dinosaur eggs on a black-sand beach at coral dawn](images/field-guide-2026-11/section-start.jpg)
 
-1. **Install:** [download stable 1.27.2 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/EvrimaTrailguide-Setup-1.27.2.exe). Close Trailguide before upgrading.
-2. **Set up:** open **Setup check**, then the game’s **Status Report**. Use **Scan setup → Auto setup** and inspect the capture areas.
+1. **Install:** [download stable 1.28.0 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-Setup-1.28.0.exe). Close Trailguide before upgrading.
+2. **Set up:** open **Setup check**, then the game’s **Status Report**. Use **Navigate → Tools → Scan setup → Auto setup** and inspect the capture areas.
 3. **Explore:** confirm a fresh reading, select **Show mini-map**, and press **Plan my Prime route** when you are ready to plan.
 
 **Watch it in action:** [full walkthrough](https://youtu.be/U__SdPqlwzQ) · [quick introduction](https://youtube.com/shorts/b4B2yn6n7Ws). The videos introduce the core workflow and predate the current interface.
@@ -129,11 +152,11 @@ Automatic installation is for installed copies; all-users installations may requ
 
 Windows x64 · Windows 10 build 19041 or newer · .NET runtime included. English Windows OCR support may need enabling separately.
 
-The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/EvrimaTrailguide-1.27.2-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
+The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-1.28.0-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
 
 Normal upgrades retain your profile. Keep a profile backup before upgrading.
 
-[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.27.2/VALIDATION-v1.27.2.txt) · [Privacy statement](PRIVACY.md)
+[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/VALIDATION-v1.28.0.txt) · [Privacy statement](PRIVACY.md)
 
 The installer is unsigned. An unfamiliar-app/SmartScreen reputation warning is not itself a malware detection. Use this repository’s release downloads and keep Windows protection enabled.
 
@@ -148,7 +171,7 @@ Made by **Roid** · Discord: **r_o_i_d** · [Email](mailto:b_greenspan@yahoo.com
 <details>
 <summary><strong>About the imagery and project</strong></summary>
 
-Application screenshots show real controls with isolated sample profiles; the workspace and mini-map views are from 1.27.1 and represent the layouts retained in 1.27.2. The portrait collection image is from 1.26.0. They are not proof of live tracking during a screenshot session.
+Application screenshots show actual 1.28.0 controls with isolated sample profiles and recorded/sample positions. The portrait collection image is from 1.26.0. Screenshots are not proof of live tracking during the capture session.
 
 The cinematic header, scenery and portraits are decorative AI-assisted illustrations, not gameplay captures or exact map imagery. Section banners are AI-assisted concept illustrations checked against visual references. Trailguide is an independent fan project, not affiliated with The Isle’s developers. This repository hosts downloads and documentation; the application source is private.
 
