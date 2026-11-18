@@ -18,7 +18,7 @@ No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVA
 
 ## 🦴 Primal — choose your atmosphere
 
-![Actual Primal navigation workspace with jungle cliffs, glass panels and a large map](images/v1.28.0/primal-navigation.png)
+![Actual stable 1.28.0 Primal navigation workspace with a sample Prime route and the map filling its viewport](images/primal-1.28.0/primal-navigation.png)
 
 **Jungle cliffs. Storm-lit confrontations. Moonlit bones.** The new optional **Primal** appearance brings six survival scenes, blood-and-bones imagery, translucent panels and subtle vine borders into the app.
 
@@ -27,8 +27,6 @@ Choose **Navigate → Tools → Appearance → Primal · blood & bones**, then t
 ## 🧭 Navigate
 
 ![Find your next stop — jade-green jungle and limestone cliffs in midday light](images/field-guide-2026-11/section-navigation.jpg)
-
-![Actual Glacier navigation workspace: Gateway map, current dinosaur and Prime checklist](images/v1.28.0/glacier-navigation.png)
 
 **One clear starting point: Plan my Prime route.** Open Evrima’s Status Report for a fresh position, then let Trailguide select nearby sanctuary, migration and patrol stops your run still needs. The plan adapts to accepted positions and recorded progress, with the next destination shared across the main map and mini-map.
 
@@ -42,18 +40,31 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 ![Your map. Your atmosphere. — a moonlit cobalt coast framed by weathered bones](images/field-guide-2026-11/section-minimap.jpg)
 
-![Actual compact mini-map with a sample route destination](images/v1.28.0/mini-map-compact.png)
+![Actual stable 1.28.0 mini-map with the existing Bone relic frame, customized warm colours and a sample route destination](images/primal-1.28.0/primal-minimap-bones.png)
 
-A compact companion for your next stop, with a map-only option when you want less chrome.
+A compact companion for your next stop, with a map-only option when you want less chrome. Shown here: the existing **Bone relic** frame with customized warm colours, a gold marker and a muted red trail.
 
-**Jungle canopy. Blood trail. Bone relic. Highlands. Glacier. Minimal.** Pick a frame, then tune the mini-map to your play style.
+**Bone relic. Blood trail. Jungle canopy.** Pair a frame with your Primal workspace, then tune the mini-map to your play style. Frame selection and colours remain separate settings in 1.28.0.
 
 - 🎨 **Make it yours:** separate terrain, panel and frame opacity; marker colours, trail styling, labels, layers, size and zoom.
 - 🖱️ **Keep playing:** click-through map-only mode, automatic mouse locking on returning to gameplay and configurable recovery shortcuts.
 - 💾 **Save your setup:** Gameplay, Ghost HUD, Explorer and High visibility presets, plus up to eight named layouts.
 - ⚙️ **Edit from the main app:** **Map settings** beside **Show mini-map** works even while the overlay is hidden.
 
-![Actual mini-map settings with presentation, layer and interaction controls](images/v1.28.0/minimap-customize.png)
+![Actual Primal mini-map settings showing the existing Bone relic frame and separate map, panel and frame controls](images/primal-1.28.0/primal-minimap-customize.png)
+
+<details>
+<summary><strong>🩸 See Blood trail and the map-only Ghost HUD</strong></summary>
+
+![Actual stable 1.28.0 mini-map with the existing Blood trail frame and customized warm colours](images/primal-1.28.0/primal-minimap-blood.png)
+
+**Blood trail** adds crimson edge details. This example uses the same customized colours and sample destination as Bone relic.
+
+![Actual stable 1.28.0 Ghost HUD preset with transparent map pixels and no frame or window controls](images/primal-1.28.0/primal-minimap-map-only.png)
+
+**Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. These are isolated sample-profile renders, not screenshots over live gameplay.
+
+</details>
 
 **Refresh from Status Report.** Trailguide reads your own visible coordinates. When they are hidden, it keeps the last accepted position and shows its age; it cannot reveal other players or track unseen movement. Borderless/windowed play is intended.
 
@@ -61,24 +72,17 @@ A compact companion for your next stop, with a map-only option when you want les
 
 ![Built around your dinosaur — Ceratosaurus and Stegosaurus in an ochre-lit landscape](images/field-guide-2026-11/section-dinosaurs.jpg)
 
-![Trailguide’s collection of 22 illustrated dinosaur portraits, with species labels](images/v1.26.0/dinosaur-portraits.png)
+![Actual Primal Growth Studio with Ceratosaurus growth silhouettes, reference stages and statistics](images/primal-1.28.0/primal-growth.png)
 
 **A recognizable face for every entry.** Explore the app’s 22 species portraits, choose your dinosaur and follow its growth. **Growth Studio** brings reference stages, silhouettes and stats together; **Lineage & mutations** keeps selected mutations and recorded generations with the run.
 
 The portraits are AI-assisted illustrations based on Evrima game-model references. Measured silhouettes remain the growth and size reference; the collection is not a claim that every species is currently playable on every game branch.
 
-<details>
-<summary><strong>🦕 Open the new Growth Studio view</strong></summary>
-
-![Actual compact Growth Studio with reference silhouettes, growth controls and statistics](images/v1.28.0/primal-growth.png)
-
-</details>
-
 ## 🩸 Combat & survival
 
 ![Know your matchup — Ceratosaurus and Carnotaurus beneath grey storm clouds](images/field-guide-2026-11/section-combat.jpg)
 
-![Actual combat workspace comparing two dinosaurs, growth silhouettes, direct hits and bleed estimates](images/v1.28.0/primal-combat.png)
+![Actual Primal combat workspace comparing two dinosaurs, growth silhouettes, direct hits and bleed estimates](images/primal-1.28.0/primal-combat.png)
 
 **Choose both dinosaurs. Pick their moves. Adjust growth.** Watch reference stats and hit estimates change together, with separate direct-damage and bleed results. Explore mutation scenarios and open the calculation details when you want to understand an estimate.
 
@@ -103,15 +107,15 @@ Seven workspaces keep the next decision within reach:
 <details>
 <summary><strong>📖 Explore the updated route replay</strong></summary>
 
-![Actual History and replay workspace with an isolated sample archive](images/v1.28.0/history-replay.png)
+![Actual Primal History and replay workspace with an isolated sample archive](images/primal-1.28.0/primal-history-replay.png)
 
 Selecting a saved life frames its route once. Playback and later resizing preserve your chosen camera view.
 
 </details>
 
-![Actual How to use workspace with first-session steps and searchable help topics](images/v1.28.0/how-to-use.png)
+![Actual Primal How to use workspace with first-session steps and searchable help topics](images/primal-1.28.0/primal-how-to-use.png)
 
-**Keep the atmosphere—or turn it down.** Choose a theme, adjust scenery strength or switch decorative artwork off in **Navigate → Tools → Appearance**. Glacier pairs ice-white panels with cobalt controls; existing users keep their selected theme. Profile backups give your settings and recorded lives a recovery copy.
+**Keep the atmosphere—or turn it down.** Adjust scenery strength, panel opacity and decorative edges in **Navigate → Tools → Appearance**, or switch the artwork off. Existing users keep their selected appearance. Profile backups give your settings and recorded lives a recovery copy.
 
 ## 🌋 Start your next run
 
@@ -171,7 +175,7 @@ Made by **Roid** · Discord: **r_o_i_d** · [Email](mailto:b_greenspan@yahoo.com
 <details>
 <summary><strong>About the imagery and project</strong></summary>
 
-Application screenshots show actual 1.28.0 controls with isolated sample profiles and recorded/sample positions. The portrait collection image is from 1.26.0. Screenshots are not proof of live tracking during the capture session.
+Application screenshots show actual stable 1.28.0 controls with isolated sample profiles and recorded/sample positions. Every featured workspace uses Primal scenery. The mini-map examples use the existing Bone relic and Blood trail frames with customized colours, or the frame-free Ghost HUD preset. Screenshots are not proof of live tracking during the capture session.
 
 The cinematic header, scenery and portraits are decorative AI-assisted illustrations, not gameplay captures or exact map imagery. Section banners are AI-assisted concept illustrations checked against visual references. Trailguide is an independent fan project, not affiliated with The Isle’s developers. This repository hosts downloads and documentation; the application source is private.
 

@@ -2,7 +2,7 @@
 
 **More of the island on screen, with clearer tools for surviving it.** Version 1.28.0 adds optional Primal scenery, makes the map the centerpiece of Navigate, and repairs OCR failures that could leave both maps on an old position even while Status Report was visible.
 
-![The new Primal navigation workspace](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/v1.28.0/images/v1.28.0/primal-navigation.png)
+![Actual stable 1.28.0 Primal navigation workspace with a sample Prime route and a filled map viewport](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-navigation.png)
 
 ## Download for Windows
 
@@ -23,17 +23,15 @@ Choose **Navigate → Tools → Appearance → Primal · blood & bones** for dar
 
 | Combat and survival | Growth studio |
 | --- | --- |
-| ![Primal combat comparison with visible inputs and results](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/v1.28.0/images/v1.28.0/primal-combat.png) | ![Primal growth studio with dinosaur silhouettes and statistics](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/v1.28.0/images/v1.28.0/primal-growth.png) |
+| ![Primal combat comparison with visible inputs and results](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-combat.png) | ![Primal growth studio with dinosaur silhouettes and statistics](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-growth.png) |
 
-Screenshots show actual 1.28.0 controls with an isolated sample profile. The scenic illustrations are decorative artwork, not live game footage or evidence of dinosaur statistics.
+Screenshots show actual stable 1.28.0 controls with an isolated sample profile and Primal scenery. Coordinates, routes and archives are illustrative inputs, not proof of live tracking during capture. The scenic illustrations are decorative artwork, not live game footage or evidence of dinosaur statistics.
 
 ## A larger map and less clutter
 
 Navigate now starts with terrain filling the map viewport, instead of a small island surrounded by wide black margins. **Island** shows the whole map; **Fill** fills the viewport again. The default layout gives more width to the map, while customized panel splits and later camera choices are retained.
 
 The app header, navigation controls, position display and map footer are more compact. **Details**, **Tools** and **Scan setup** keep the longer explanations and diagnostics close by. At narrow window sizes, **Dinosaur panel** reveals the sidebar when needed; a pending life check keeps its own visible action.
-
-![Compact Glacier navigation layout](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/v1.28.0/images/v1.28.0/glacier-navigation.png)
 
 The other tabs also give priority to inputs, imagery and results:
 
@@ -43,6 +41,15 @@ The other tabs also give priority to inputs, imagery and results:
 - **Growth:** artwork adapts to the available height while the main controls and statistics stay prominent.
 - **Compass:** icons, names and meanings stay visible; **Show descriptions** reveals the longer notes.
 - **How to use:** a smaller search header, expandable shortcut details and actions beside the instructions they open.
+
+<details>
+<summary><strong>Explore Primal History and How to use</strong></summary>
+
+![Actual Primal History and replay workspace with an isolated sample archive](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-history-replay.png)
+
+![Actual Primal How to use workspace with first-session steps and searchable help topics](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-how-to-use.png)
+
+</details>
 
 ## Tracking repairs
 
@@ -64,9 +71,24 @@ Trailguide reads **your own visible Status Report**. Open it with complete Lat/L
 
 Pins and routes now redraw immediately when edited while your dinosaur is stationary. **Previous stop** also moves backward correctly when a saved route contains deleted pins. Existing show/hide shortcuts, click-through, transparency and mini-map customization remain available.
 
-| Mini-map appearance controls | Compact mini-map |
+| Mini-map appearance controls | Bone relic mini-map |
 | --- | --- |
-| ![Mini-map customization controls](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/v1.28.0/images/v1.28.0/minimap-customize.png) | ![Compact mini-map with a sample route](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/v1.28.0/images/v1.28.0/mini-map-compact.png) |
+| ![Actual Primal mini-map customization controls with Bone relic selected](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-customize.png) | ![Actual stable 1.28.0 mini-map with the existing Bone relic frame, customized warm colours and a sample route](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-bones.png) |
+
+The mini-map shown uses the existing **Bone relic** frame with customized warm colours, a gold marker and a muted red trail. Frame selection and colours are separate settings in 1.28.0, so you can pair the overlay with your Primal workspace.
+
+<details>
+<summary><strong>See the Blood trail frame and map-only Ghost HUD</strong></summary>
+
+![Actual stable 1.28.0 mini-map with the existing Blood trail frame and customized warm colours](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-blood.png)
+
+**Blood trail** supplies crimson edge details. This sample uses the same customized colours as Bone relic.
+
+![Actual stable 1.28.0 Ghost HUD preset with transparent map pixels and no frame or window controls](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-map-only.png)
+
+**Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. These sample-profile renders are not composited over gameplay.
+
+</details>
 
 Prime routes use mapped reference zones and straight-line distances. They do not expose live server-zone flags or guarantee a terrain-safe path; mapped visits remain attempts until verified in game.
 
