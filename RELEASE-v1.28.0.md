@@ -1,5 +1,7 @@
 # Evrima Trailguide 1.28.0 — Primal Scenery, Bigger Maps and Tracking Repairs
 
+> **Historical release: 1.28.0.** [Latest stable: 1.28.1](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.1).
+
 **More of the island on screen, with clearer tools for surviving it.** Version 1.28.0 adds optional Primal scenery, makes the map the centerpiece of Navigate, and repairs OCR failures that could leave both maps on an old position even while Status Report was visible.
 
 ![Actual stable 1.28.0 Primal navigation workspace with a sample Prime route and a filled map viewport](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-navigation.png)
@@ -71,6 +73,11 @@ Trailguide reads **your own visible Status Report**. Open it with complete Lat/L
 
 Pins and routes now redraw immediately when edited while your dinosaur is stationary. **Previous stop** also moves backward correctly when a saved route contains deleted pins. Existing show/hide shortcuts, click-through, transparency and mini-map customization remain available.
 
+**Current Primal mini-map:** [See the cinematic artwork wrapping all four sides in 1.28.1](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.1).
+
+<details>
+<summary><strong>Archived 1.28.0 mini-map screenshots</strong></summary>
+
 | Mini-map appearance controls | Bone relic mini-map |
 | --- | --- |
 | ![Actual Primal mini-map customization controls with Bone relic selected](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-customize.png) | ![Actual stable 1.28.0 mini-map with the existing Bone relic frame, customized warm colours and a sample route](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-bones.png) |
@@ -87,6 +94,8 @@ The mini-map shown uses the existing **Bone relic** frame with customized warm c
 ![Actual stable 1.28.0 Ghost HUD preset with transparent map pixels and no frame or window controls](https://raw.githubusercontent.com/roid-apps/Evrima-Trailguide/main/images/primal-1.28.0/primal-minimap-map-only.png)
 
 **Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. These sample-profile renders are not composited over gameplay.
+
+</details>
 
 </details>
 
