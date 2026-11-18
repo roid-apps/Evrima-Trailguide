@@ -1,6 +1,6 @@
 # Privacy statement — Evrima Trailguide
 
-**Last updated: November 17, 2026 · Updated for: Evrima Trailguide v1.27.1 and the repository that hosts it**
+**Last updated: November 18, 2026 · Updated for: Evrima Trailguide v1.28.0 and the repository that hosts it**
 
 Evrima Trailguide is a free desktop application for Windows, made by an independent developer (Roid). It is not a service, it has no accounts, and there is nothing to log into.
 
