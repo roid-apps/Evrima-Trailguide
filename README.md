@@ -3,16 +3,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-Setup-1.28.0.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.28.0-5EEAD4?style=for-the-badge&amp;labelColor=102A2B" alt="Download stable 1.28.0 for Windows"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.1/EvrimaTrailguide-Setup-1.28.1.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.28.1-5EEAD4?style=for-the-badge&amp;labelColor=102A2B" alt="Download stable 1.28.1 for Windows"></a>
   <a href="https://youtu.be/U__SdPqlwzQ"><img src="https://img.shields.io/badge/WATCH_THE-WALKTHROUGH-FFCE73?style=for-the-badge&amp;labelColor=102A2B" alt="Watch the full walkthrough"></a>
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.0"><img src="https://img.shields.io/badge/EXPLORE-THE_LATEST_UPDATE-79CAFF?style=for-the-badge&amp;labelColor=102A2B" alt="Read the 1.28.0 release notes"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.1"><img src="https://img.shields.io/badge/EXPLORE-THE_LATEST_UPDATE-79CAFF?style=for-the-badge&amp;labelColor=102A2B" alt="Read the 1.28.1 release notes"></a>
 </p>
 
 **Find your way. Plan your Prime. Keep your story.** Evrima Trailguide is a free Windows companion for **The Isle: Evrima**. Bring your map, dinosaur, objectives and run history together—then take a mini-map styled for the island back into the game.
 
 🗺️ **Your own location** · 🧭 **Prime route planning** · 🦕 **Dinosaur references** · 🩸 **Combat estimates** · 📖 **Run replay**
 
-**[Download for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-Setup-1.28.0.exe)** · [Watch the walkthrough](https://youtu.be/U__SdPqlwzQ) · [Report a bug / share an idea](https://github.com/roid-apps/Evrima-Trailguide/issues)
+**[Download for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.1/EvrimaTrailguide-Setup-1.28.1.exe)** · [Watch the walkthrough](https://youtu.be/U__SdPqlwzQ) · [Report a bug / share an idea](https://github.com/roid-apps/Evrima-Trailguide/issues)
 
 No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVACY.md)
 
@@ -20,7 +20,7 @@ No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVA
 
 ![Actual stable 1.28.0 Primal navigation workspace with a sample Prime route and the map filling its viewport](images/primal-1.28.0/primal-navigation.png)
 
-**Jungle cliffs. Storm-lit confrontations. Moonlit bones.** The new optional **Primal** appearance brings six survival scenes, blood-and-bones imagery, translucent panels and subtle vine borders into the app.
+**Jungle cliffs. Storm-lit confrontations. Moonlit bones.** The optional **Primal** appearance brings six survival scenes, blood-and-bones imagery, translucent panels and subtle vine borders into the app. **New in 1.28.1:** a cinematic Primal mini-map frame wraps the overlay on all four sides. [See the update →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.1)
 
 Choose **Navigate → Tools → Appearance → Primal · blood & bones**, then tune scenery strength, panel opacity, edge details and motion. Prefer a clean field kit? Keep Classic or switch the scenery off. Existing preferences are retained; new profiles start with Classic.
 
@@ -32,7 +32,7 @@ Choose **Navigate → Tools → Appearance → Primal · blood & bones**, then t
 
 Place your own nest, water, danger or meeting pins. Search the map, choose useful layers, and keep attempted and confirmed objectives distinct.
 
-**New in 1.28.0:** a larger map by default, compact controls across all seven workspaces, stronger OCR reacquisition, immediate pin/route redraws and smarter replay framing. [See the fixes →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.0)
+**Included from 1.28.0:** a larger map by default, compact controls across all seven workspaces, stronger OCR reacquisition, immediate pin/route redraws and smarter replay framing. [Read the 1.28.0 fixes →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.28.0)
 
 Start a **New run** after respawning or changing lives. Routes use mapped reference zones and straight-line distances, not guaranteed safe paths or live server-zone flags. Mapped visits remain attempts until verified in game; diet, nesting and other Prime requirements need their own checks.
 
@@ -40,29 +40,25 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 ![Your map. Your atmosphere. — a moonlit cobalt coast framed by weathered bones](images/field-guide-2026-11/section-minimap.jpg)
 
-![Actual stable 1.28.0 mini-map with the existing Bone relic frame, customized warm colours and a sample route destination](images/primal-1.28.0/primal-minimap-bones.png)
+![Actual Primal mini-map with a cinematic Ceratosaurus header, skeletal remains and vine artwork around all four sides](images/primal-1.28.1/minimap-cinematic.png)
 
-A compact companion for your next stop, with a map-only option when you want less chrome. Shown here: the existing **Bone relic** frame with customized warm colours, a gold marker and a muted red trail.
+A compact companion for your next stop, framed by a bloodied Ceratosaurus, dark jungle, weathered ribs and tangled vines. The new **Primal · blood & bones** frame carries detailed survival artwork around all four sides, with narrow side borders outside the map.
 
-**Bone relic. Blood trail. Jungle canopy.** Pair a frame with your Primal workspace, then tune the mini-map to your play style. Frame selection and colours remain separate settings in 1.28.0.
+Choose **Navigate → Map settings → Frame artwork → Primal · blood & bones**. Its dark green panels and warm bone-coloured text pair with the main app's Primal scenery. The frame is a separate choice; existing saved layouts keep their selected appearance.
 
 - 🎨 **Make it yours:** separate terrain, panel and frame opacity; marker colours, trail styling, labels, layers, size and zoom.
 - 🖱️ **Keep playing:** click-through map-only mode, automatic mouse locking on returning to gameplay and configurable recovery shortcuts.
 - 💾 **Save your setup:** Gameplay, Ghost HUD, Explorer and High visibility presets, plus up to eight named layouts.
 - ⚙️ **Edit from the main app:** **Map settings** beside **Show mini-map** works even while the overlay is hidden.
 
-![Actual Primal mini-map settings showing the existing Bone relic frame and separate map, panel and frame controls](images/primal-1.28.0/primal-minimap-customize.png)
-
 <details>
-<summary><strong>🩸 See Blood trail and the map-only Ghost HUD</strong></summary>
+<summary><strong>🦴 Explore the larger Primal mini-map</strong></summary>
 
-![Actual stable 1.28.0 mini-map with the existing Blood trail frame and customized warm colours](images/primal-1.28.0/primal-minimap-blood.png)
+![Actual expanded Primal mini-map with cinematic artwork around the terrain and visible exploration controls](images/primal-1.28.1/minimap-cinematic-expanded.png)
 
-**Blood trail** adds crimson edge details. This example uses the same customized colours and sample destination as Bone relic.
+Open the expanded view for destination, layer and opacity controls. The frame adapts to the window while the dinosaur and bone details keep their proportions.
 
-![Actual stable 1.28.0 Ghost HUD preset with transparent map pixels and no frame or window controls](images/primal-1.28.0/primal-minimap-map-only.png)
-
-**Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. These are isolated sample-profile renders, not screenshots over live gameplay.
+**Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. High contrast also hides decorative artwork. The pictured positions come from isolated sample profiles, not live gameplay.
 
 </details>
 
@@ -121,7 +117,7 @@ Selecting a saved life frames its route once. Playback and later resizing preser
 
 ![Step onto the island — dinosaur eggs on a black-sand beach at coral dawn](images/field-guide-2026-11/section-start.jpg)
 
-1. **Install:** [download stable 1.28.0 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-Setup-1.28.0.exe). Close Trailguide before upgrading.
+1. **Install:** [download stable 1.28.1 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.1/EvrimaTrailguide-Setup-1.28.1.exe). Close Trailguide before upgrading.
 2. **Set up:** open **Setup check**, then the game’s **Status Report**. Use **Navigate → Tools → Scan setup → Auto setup** and inspect the capture areas.
 3. **Explore:** confirm a fresh reading, select **Show mini-map**, and press **Plan my Prime route** when you are ready to plan.
 
@@ -156,11 +152,11 @@ Automatic installation is for installed copies; all-users installations may requ
 
 Windows x64 · Windows 10 build 19041 or newer · .NET runtime included. English Windows OCR support may need enabling separately.
 
-The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/EvrimaTrailguide-1.28.0-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
+The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.1/EvrimaTrailguide-1.28.1-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
 
 Normal upgrades retain your profile. Keep a profile backup before upgrading.
 
-[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.0/VALIDATION-v1.28.0.txt) · [Privacy statement](PRIVACY.md)
+[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.1/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.28.1/VALIDATION-v1.28.1.txt) · [Privacy statement](PRIVACY.md)
 
 The installer is unsigned. An unfamiliar-app/SmartScreen reputation warning is not itself a malware detection. Use this repository’s release downloads and keep Windows protection enabled.
 
@@ -175,7 +171,7 @@ Made by **Roid** · Discord: **r_o_i_d** · [Email](mailto:b_greenspan@yahoo.com
 <details>
 <summary><strong>About the imagery and project</strong></summary>
 
-Application screenshots show actual stable 1.28.0 controls with isolated sample profiles and recorded/sample positions. Every featured workspace uses Primal scenery. The mini-map examples use the existing Bone relic and Blood trail frames with customized colours, or the frame-free Ghost HUD preset. Screenshots are not proof of live tracking during the capture session.
+The main workspace screenshots show actual 1.28.0 controls with Primal scenery. The mini-map screenshots show the cinematic frame added for 1.28.1. All use isolated sample profiles and recorded/sample positions; they are not proof of live tracking during the capture session.
 
 The cinematic header, scenery and portraits are decorative AI-assisted illustrations, not gameplay captures or exact map imagery. Section banners are AI-assisted concept illustrations checked against visual references. Trailguide is an independent fan project, not affiliated with The Isle’s developers. This repository hosts downloads and documentation; the application source is private.
 

@@ -1,0 +1,2 @@
+9c992198632b6a5a04bd06dca8a9e404e5f07728abbc75ed3ba62e5a47efde3e  EvrimaTrailguide-Setup-1.28.1.exe
+cf5092c37211e737f34322dcc2d56a545da9660fb3bf2ac8a94460b304d0d1bc  EvrimaTrailguide-1.28.1-Windows.zip

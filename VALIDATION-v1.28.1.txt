@@ -1,0 +1,66 @@
+EVRIMA TRAILGUIDE 1.28.1 - STABLE VALIDATION
+Validated: November 18, 2026
+Product version: 1.28.1
+Windows file/assembly version: 1.28.1.4
+Target: Windows x64, Windows 10 build 19041 or later; self-contained .NET 10.
+
+RESULT
+The stable build passed the automated checks below and a current-user installer
+upgrade. The release packages are identified by SHA256SUMS.txt.
+
+AUTOMATED REGRESSION
+1,730 tests executed; 1,730 passed; 0 failed or skipped.
+The full solution test run was part of the exact distribution build. Coverage
+includes coordinate parsing/validation, stale readings, capture decisions,
+growth, route progress, settings, combat references and updater safeguards.
+
+MINI-MAP AND ARTWORK
+238 headless mini-map checks passed against the stable application controls.
+The approved raster artwork is embedded in the application and uses shared,
+frozen image resources rather than decoding the image on each location scan.
+
+Checked:
+- All four frame edges contain the cinematic artwork and cannot receive input.
+- Header subjects keep their proportions; the full footer scene scales uniformly.
+- Compact footer cropping and expanded footer vines retain a continuous frame.
+- Primal's 22px side gutters keep artwork outside the map. Compared with other
+  framed styles, terrain is 32px narrower and its height is unchanged.
+- Returning to another style restores its 6px margins; map-only restores 0px
+  margins and hides the artwork.
+- Panel, artwork and terrain opacity remain independent. Sampled terrain pixels
+  are unchanged when artwork opacity changes within the same Primal layout.
+- Palette restoration, cached resources and external preference synchronization.
+- Existing route selection, progress, destination controls and saved-view state.
+
+VISUAL REVIEW AND SCREENSHOTS
+Actual stable WPF controls rendered with isolated sample profiles at 529x403,
+320x260, 460x520 and 560x700. Compact, expanded, transparent, map-only and
+restored legacy-frame views were inspected. A 125% offscreen raster was checked;
+this was not a physical monitor/DPI interaction test.
+
+The two new release screenshots come from the stable 1.28.1 runtime. They show
+sample positions, not live gameplay. Main-workspace screenshots retained from
+1.28.0 show its unchanged Primal interface and are labelled accordingly.
+The dinosaur, jungle and skeletal artwork are decorative AI-assisted imagery.
+
+INSTALLER AND PRESERVATION
+Current-user upgrade from 1.28.1-dev.3 completed with installer exit code 0.
+All 121 installed application/data files matched the distribution package.
+All 21 existing profile files remained byte-for-byte unchanged by installation.
+Desktop, Start menu and pinned taskbar shortcuts target the installed stable app.
+Pre-upgrade app and profile backups were retained locally.
+
+Product version verified after installation: 1.28.1.
+Application executable SHA256:
+ce62db522232d173108de65f2d9fced29a785e2d2734250ad753787b5227ee96
+
+The Windows ZIP is an installer bundle with the same installer, README, notices,
+licence and installer checksum. It is not a portable build or application-source
+archive. The optional updater helper and required map assets are included.
+
+LIMITS
+This revision changes mini-map presentation. It does not claim new live-game
+OCR latency, physical M-key, cross-process click-through, monitor relocation or
+OS high-contrast-toggle testing. Headless checks do not replace those tests.
+Coordinates still require a visible Status Report. Routes use mapped reference
+zones and straight-line distances, not live server flags or guaranteed safe paths.
