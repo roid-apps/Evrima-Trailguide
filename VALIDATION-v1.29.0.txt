@@ -1,0 +1,79 @@
+EVRIMA TRAILGUIDE 1.29.0 - STABLE VALIDATION
+Product version: 1.29.0
+Windows file/assembly version: 1.29.0.2
+Target: Windows x64, Windows 10 build 19041 or later; self-contained .NET 10.
+
+RESULT
+The exact stable distribution passed all 1,788 automated tests and a
+current-user installer upgrade from 1.29.0-dev.1. Release packages are
+identified by SHA256SUMS.txt. This is a stable release, not a prerelease.
+
+AUTOMATED REGRESSION
+1,788 tests executed; 1,788 passed; zero failed or skipped.
+The full solution test run was part of the exact stable distribution build.
+Coverage includes coordinate/OCR parsing and recovery, scan scheduling,
+growth, location freshness, routes, minimap interaction, settings, combat
+references, update safeguards, habitats, presets and recorded lineage links.
+
+PRIMAL HABITATS AND APPEARANCE
+Feature preparation passed 748 headless assertions across all 22 existing
+species portraits and four bundled environments. Map-terrain pixel hashes,
+marker placement and camera state remained unchanged under artwork changes.
+The checks include compact/expanded maps, passive artwork outside the terrain,
+map-only and High Contrast modes, lineage layouts and isolated preset preview.
+
+The same feature implementation passed 238 existing headless minimap checks,
+including following, stale guidance, independent opacity, interaction locking,
+passive hooks, camera preservation and existing frame behavior. Theme probes
+covered all seven tabs across three palettes, 70% panel opacity contrast,
+compact layouts, settings extremes and return to the selected Classic palette.
+These feature probes ran on 1.29.0-dev.1 before stable version promotion;
+the stable change updates version metadata and installer documentation.
+
+Preset tests verify the strict versioned 64 KiB format, bounded presentation
+values, bundled artwork IDs, rejected unknown/duplicate fields and external
+asset paths. Applying or undoing appearance preserves newer route/camera
+state, local shortcuts, accessibility choices and motion preferences.
+Camera/route-only changes do not rebuild an open preview. Relevant species
+and readability changes update it without replacing a pending imported look.
+High Contrast previews hide all ornament and use opaque system surfaces.
+Window listeners detach on close and ignore queued post-close refreshes.
+
+LINEAGE
+Connections require recorded Entomb evidence and unambiguous consecutive
+generations. Missing, conflicting or legacy records stay separate. Current
+and archived lives are deduplicated by recorded identity. The tree does not
+infer biological parentage or unknown mutation enhancement values.
+
+STABLE SCREENSHOTS
+Sixteen fresh screenshots were rendered from the actual stable 1.29.0 WPF
+controls with isolated sample profiles: five main workspaces, four environment
+preview dialogs, four personalized minimaps, an expanded minimap, Bloodlines
+and Appearance presets. The final renders were visually reviewed.
+No user coordinates, saved runs or personal profile data were used.
+The screenshots are actual UI renders, not live gameplay captures. Scenery
+and dinosaur portraits are decorative AI-assisted art, not exact map imagery
+or a claim to detect the game's current biome or weather.
+
+INSTALLER AND SHORTCUTS
+Current-user upgrade from 1.29.0-dev.1 completed with installer exit code 0.
+The installed executable matches the packaged binary. All 119 external data
+assets match the package, and all 21 existing profile files remained unchanged.
+Desktop, Start menu and pinned taskbar shortcuts target the stable executable.
+An app/profile backup was retained locally before upgrading.
+Installed product version: 1.29.0. Installed file version: 1.29.0.2.
+Application executable SHA256:
+6d958cbe98ce304749091c8bdd85f382439efe54f06b6234d50eafeb6c421353
+
+The Windows ZIP contains the same installer, README, notices, licence and
+installer checksum. It is not a portable application or private-source archive.
+The optional updater helper and required map assets are included.
+
+LIMITS
+No new physical in-game keyboard, cross-process click-through, monitor/DPI
+relocation or OS High Contrast toggle test was performed for this appearance
+release. Automated notification tests do not change Windows settings. Headless
+rendering creates no visible native windows, registers no game hotkeys and
+performs no live OCR or desktop activation.
+Coordinates still require a visible Status Report. Routes use mapped reference
+zones and straight-line distances, not live server flags or guaranteed safe paths.
