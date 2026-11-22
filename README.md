@@ -16,14 +16,16 @@
 
 No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVACY.md)
 
+> **Artwork preview from local development build; stable 1.29.1 download retains earlier artwork.** The images below preview the Ceratosaurus art refresh. The download and release details still describe stable 1.29.1.
+
 ## 🩸 New in 1.29.1 — know what a hit can do
 
 **A small health estimate. A deeper combat reference.** This update adds an optional mini-map health indicator, Ceratosaurus charge previews, target-specific damage regions, and **Head / Body / Legs** bone-health references with Pachy fracture calculations. Attack coverage and growth scaling have been reviewed across all **22 released species**, and qualified Ceratosaurus attacks now have corrected bleed calculations. [Read the release notes →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.29.1)
 
 <table>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.1/health-minimap.png" alt="Stable 1.29.1 Primal mini-map with an illustrative SAMPLE health estimate in the bottom-right corner" width="100%"><br><strong>❤️ Wounded-health estimate</strong><br>A passive, optional indicator with clear stale and unavailable states.</td>
-    <td width="50%"><img src="images/primal-1.29.1/fracture-growth.png" alt="Stable 1.29.1 Growth Studio regional bone-health references and Pachy headbutt estimates using sample inputs" width="100%"><br><strong>🦴 Know your bone pools</strong><br>Explore regional durability at your dinosaur’s growth and Elder branch.</td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/health-minimap.png" alt="Artwork preview — Primal mini-map with an illustrative SAMPLE health estimate in the bottom-right corner" width="100%"><br><strong>❤️ Wounded-health estimate</strong><br>A passive, optional indicator with clear stale and unavailable states.</td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/fracture-growth.png" alt="Artwork preview — Growth Studio regional bone-health references and Pachy headbutt estimates using sample inputs" width="100%"><br><strong>🦴 Know your bone pools</strong><br>Explore regional durability at your dinosaur’s growth and Elder branch.</td>
   </tr>
 </table>
 
@@ -31,7 +33,7 @@ These are qualified **reference estimates**, not live HP telemetry or guaranteed
 
 ## 🦴 Primal Habitats — your dinosaur, your atmosphere
 
-![Actual stable 1.29.1 Primal navigation workspace with an isolated sample position and the map filling its viewport](images/primal-1.29.1/primal-navigation.png)
+![Artwork preview — Primal navigation workspace with an isolated sample position and the map filling its viewport](images/ceratosaurus-art-refresh-2026-11/primal-navigation.png)
 
 **Cold swamp mist. Drifting volcanic ash. Silver surf. Rust-red highlands.** Keep the four environment packs, personalized full-wrap Primal mini-map, visual **Bloodlines** tree and shareable appearance presets introduced in 1.29.0. Preview a look before applying it, and undo it when you want a change.
 
@@ -39,12 +41,12 @@ The optional **Primal · blood & bones** appearance brings cinematic survival sc
 
 <table>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.1/environment-swamp-mist.png" alt="Swamp mist environment preview in Trailguide 1.29.1" width="100%"><br><strong>🌿 Swamp mist</strong><br>Cold green water, hanging roots and a shroud of mist.</td>
-    <td width="50%"><img src="images/primal-1.29.1/environment-volcanic-ash.png" alt="Volcanic ash environment preview in Trailguide 1.29.1" width="100%"><br><strong>🌋 Volcanic ash</strong><br>Charcoal mountains, drifting ash and a distant ember glow.</td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/environment-swamp-mist.png" alt="Swamp mist environment in the local development artwork preview" width="100%"><br><strong>🌿 Swamp mist</strong><br>Cold green water, hanging roots and a shroud of mist.</td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/environment-volcanic-ash.png" alt="Volcanic ash environment in the local development artwork preview" width="100%"><br><strong>🌋 Volcanic ash</strong><br>Charcoal mountains, drifting ash and a distant ember glow.</td>
   </tr>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.1/environment-moonlit-coast.png" alt="Moonlit coastline environment preview in Trailguide 1.29.1" width="100%"><br><strong>🌙 Moonlit coastline</strong><br>Silver surf, blue-black cliffs and moonlit jungle.</td>
-    <td width="50%"><img src="images/primal-1.29.1/environment-dry-highlands.png" alt="Dry highlands environment preview in Trailguide 1.29.1" width="100%"><br><strong>🏔️ Dry highlands</strong><br>Rust-red escarpments, dry grass and weathered bones.</td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/environment-moonlit-coast.png" alt="Moonlit coastline environment in the local development artwork preview" width="100%"><br><strong>🌙 Moonlit coastline</strong><br>Silver surf, blue-black cliffs and moonlit jungle.</td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/environment-dry-highlands.png" alt="Dry highlands environment in the local development artwork preview" width="100%"><br><strong>🏔️ Dry highlands</strong><br>Rust-red escarpments, dry grass and weathered bones.</td>
   </tr>
 </table>
 
@@ -66,14 +68,18 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 **Let the frame belong to your dinosaur.** The full-wrap Primal mini-map combines your chosen habitat with one of the app’s **22 species portraits**. Weathered ribs fill the footer; vines frame both sides outside the terrain. Artwork adapts to compact and expanded layouts while preserving the dinosaur’s proportions.
 
+![Artwork preview — corrected Ceratosaurus in the original full-wrap Primal mini-map frame, surrounded by vines, weathered bones and jungle scenery](images/ceratosaurus-art-refresh-2026-11/minimap-primal-fixed.png)
+
+**The original Primal frame, refreshed.** Preview the more game-faithful Ceratosaurus with the original cinematic jungle frame, or personalize the frame with a species portrait and one of the habitats below.
+
 <table>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.1/minimap-swamp-mist.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Swamp mist" width="100%"><br><strong>🌿 Swamp mist</strong></td>
-    <td width="50%"><img src="images/primal-1.29.1/minimap-volcanic-ash.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Volcanic ash" width="100%"><br><strong>🌋 Volcanic ash</strong></td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/minimap-swamp-mist.png" alt="Artwork preview — species-personalized Primal mini-map with Swamp mist" width="100%"><br><strong>🌿 Swamp mist</strong></td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/minimap-volcanic-ash.png" alt="Artwork preview — species-personalized Primal mini-map with Volcanic ash" width="100%"><br><strong>🌋 Volcanic ash</strong></td>
   </tr>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.1/minimap-moonlit-coast.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Moonlit coastline" width="100%"><br><strong>🌙 Moonlit coastline</strong></td>
-    <td width="50%"><img src="images/primal-1.29.1/minimap-dry-highlands.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Dry highlands" width="100%"><br><strong>🏔️ Dry highlands</strong></td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/minimap-moonlit-coast.png" alt="Artwork preview — species-personalized Primal mini-map with Moonlit coastline" width="100%"><br><strong>🌙 Moonlit coastline</strong></td>
+    <td width="50%"><img src="images/ceratosaurus-art-refresh-2026-11/minimap-dry-highlands.png" alt="Artwork preview — species-personalized Primal mini-map with Dry highlands" width="100%"><br><strong>🏔️ Dry highlands</strong></td>
   </tr>
 </table>
 
@@ -89,7 +95,7 @@ Choose **Navigate → Map settings → Frame artwork → Primal · blood & bones
 <details>
 <summary><strong>🦴 Explore the larger Primal mini-map</strong></summary>
 
-![Actual expanded 1.29.1 Primal mini-map with species artwork, environment scenery and visible exploration controls](images/primal-1.29.1/minimap-expanded.png)
+![Artwork preview — expanded Primal mini-map with species artwork, environment scenery and visible exploration controls](images/ceratosaurus-art-refresh-2026-11/minimap-expanded.png)
 
 Open the expanded view for destination, layer and opacity controls. **Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. High contrast hides decorative artwork too, including when the Windows setting changes while the mini-map is open.
 
@@ -103,7 +109,7 @@ The artwork receives no mouse or keyboard input. Changing an environment or port
 
 ![Every life leaves a trail — bones and dinosaur footprints disappearing into violet fog](images/field-guide-2026-11/section-journal.jpg)
 
-![Actual 1.29.1 Bloodlines tree showing three sample generations, recorded Entomb connections and mutation details](images/primal-1.29.1/lineage-tree.png)
+![Artwork preview — Bloodlines tree showing three sample generations, recorded Entomb connections and mutation details](images/ceratosaurus-art-refresh-2026-11/lineage-tree.png)
 
 Open **Lineage & mutations → Explore lineage tree** to see recorded lives, generations and mutations together. Select a life to inspect its mutation records or open its archived route in replay. Compact cards keep the chain visible, with details beside it on larger windows.
 
@@ -111,7 +117,7 @@ Connections show **recorded Entomb transitions**. Missing generations, ambiguous
 
 ## 🎨 Preview it. Share it. Make it yours.
 
-![Actual 1.29.1 Appearance presets window with scenery and personalized mini-map previews](images/primal-1.29.1/appearance-preview.png)
+![Artwork preview — Appearance presets window with scenery and personalized mini-map previews](images/ceratosaurus-art-refresh-2026-11/appearance-preview.png)
 
 Open **Navigate → Tools → Appearance → Appearance presets**. Try a built-in environment or import a friend’s look, inspect the preview, then choose **Apply preview**. Closing without Apply leaves your saved appearance alone. **Undo last apply** restores the previous look while preserving newer navigation progress.
 
@@ -123,13 +129,13 @@ Open previews follow species and accessibility changes. Camera movement and rout
 
 ![Built around your dinosaur — Ceratosaurus and Stegosaurus in an ochre-lit landscape](images/field-guide-2026-11/section-dinosaurs.jpg)
 
-![Actual stable 1.29.1 Primal Growth Studio with growth silhouettes, reference stages and statistics](images/primal-1.29.1/primal-growth.png)
+![Artwork preview — Primal Growth Studio with growth silhouettes, reference stages and statistics](images/ceratosaurus-art-refresh-2026-11/primal-growth.png)
 
 **A recognizable face for every entry.** Explore the app’s 22 species portraits, choose your dinosaur and follow its growth. **Growth Studio** brings reference stages, silhouettes and stats together; **Lineage & mutations** keeps selected mutations and recorded generations with the run.
 
 **Choose a move and a target.** Compare damage to the head, body and tail, then expand neck, limb and other species-specific regions. Supported attacks follow growth and Prime/Frail scaling. Ceratosaurus has a **0–4 second effective mouth-open charge preview**; full charge is **2.3× ordinary bite** before target and scenario adjustments. Separate contact events, pounce cycles and conditional abilities retain their own rules.
 
-![Stable 1.29.1 Ceratosaurus charge preview and target-region damage references with sample inputs](images/primal-1.29.1/charged-bite-growth.png)
+![Artwork preview — Ceratosaurus charge preview and target-region damage references with sample inputs](images/ceratosaurus-art-refresh-2026-11/charged-bite-growth.png)
 
 **🦴 How many Pachy headbutts can your dinosaur take?** Open the **Bone health reference** in Growth Studio. Set the defender’s species, growth and Elder branch, then adjust the Pachy attacker independently. Head, Body and Legs show maximum and remaining bone pools alongside tap and held-headbutt estimates. Viewing Pachy also lets you choose a different target. Existing regional damage, fracture resistance, relevant mutations and attacker injury can change the result.
 
@@ -141,20 +147,20 @@ The portraits are AI-assisted illustrations based on Evrima game-model reference
 
 ![Know your matchup — Ceratosaurus and Carnotaurus beneath grey storm clouds](images/field-guide-2026-11/section-combat.jpg)
 
-![Actual stable 1.29.1 Primal combat workspace with dinosaur comparisons, silhouettes, direct hits and bleed estimates](images/primal-1.29.1/primal-combat.png)
+![Artwork preview — Primal combat workspace with dinosaur comparisons, silhouettes, direct hits and bleed estimates](images/ceratosaurus-art-refresh-2026-11/primal-combat.png)
 
 **Choose both dinosaurs. Pick their moves. Adjust growth and hit area.** Watch reference stats and event estimates change together, with separate direct-damage and bleed results. Region multipliers belong to the **target dinosaur**, and attacks that bypass ordinary hit regions keep their separate rules. The attack calculator includes compact Pachy fracture cards tied to the selected stages and mutations.
 
-![Stable 1.29.1 Pachy fracture calculator with sample attacker and victim settings](images/primal-1.29.1/pachy-fracture-calculator.png)
+![Artwork preview — Pachy fracture calculator with sample attacker and victim settings](images/ceratosaurus-art-refresh-2026-11/pachy-fracture-calculator.png)
 
 **🩸 Bleed follows the selected scenario.** Qualified Ceratosaurus bite, directional bite and charged bite use final direct damage, target defense and the applicable bleed thresholds. Current-growth blood capacity is the default; the older chart pool is an explicit historical comparison. Choose land movement or a swimming speed band, inspect resistance, and use a finite wound duration with the post-hit vitals helper.
 
-![Stable 1.29.1 Ceratosaurus direct-damage and bleed-out references with sample scenario inputs](images/primal-1.29.1/bleed-calculator.png)
+![Artwork preview — Ceratosaurus direct-damage and bleed-out references with sample scenario inputs](images/ceratosaurus-art-refresh-2026-11/bleed-calculator.png)
 
 <details>
 <summary><strong>🩸 Movement, wound duration and calculation limits</strong></summary>
 
-![Stable 1.29.1 bleed movement references with explicit swimming-speed scenarios](images/primal-1.29.1/bleed-movement.png)
+![Artwork preview — bleed movement references with explicit swimming-speed scenarios](images/ceratosaurus-art-refresh-2026-11/bleed-movement.png)
 
 Mixed land movement uses a weighted loss rate. Water has separate slow, fast and above-fast speed bands; land resting protection is not applied underwater. Wounded Ceratosaurus resistance, Beipiaosaurus water resistance, wound expiry and lethal-direct-hit handling are included where qualified.
 
@@ -181,13 +187,13 @@ Seven workspaces keep the next decision within reach:
 <details>
 <summary><strong>📖 Explore route replay</strong></summary>
 
-![Actual stable 1.29.1 Primal History and replay workspace with an isolated sample archive](images/primal-1.29.1/primal-history-replay.png)
+![Artwork preview — Primal History and replay workspace with an isolated sample archive](images/ceratosaurus-art-refresh-2026-11/primal-history-replay.png)
 
 Selecting a saved life frames its route once. Playback and later resizing preserve your chosen camera view.
 
 </details>
 
-![Actual stable 1.29.1 Primal How to use workspace with first-session steps and searchable help topics](images/primal-1.29.1/primal-how-to-use.png)
+![Artwork preview — Primal How to use workspace with first-session steps and searchable help topics](images/ceratosaurus-art-refresh-2026-11/primal-how-to-use.png)
 
 **Keep the atmosphere—or turn it down.** Adjust scenery strength, panel opacity and decorative edges in **Navigate → Tools → Appearance**, or switch the artwork off. Existing users keep their selected appearance. Profile backups give your settings and recorded lives a recovery copy.
 
@@ -250,7 +256,7 @@ Made by **Roid** · Discord: **r_o_i_d** · [Email](mailto:b_greenspan@yahoo.com
 <details>
 <summary><strong>About the imagery and project</strong></summary>
 
-The application screenshots and previews show actual stable 1.29.1 controls with Primal scenery. All use isolated sample profiles and recorded/sample positions; they are not live gameplay captures or proof of tracking during the capture session. The health demonstration is explicitly marked **SAMPLE** and uses illustrative evidence.
+The application screenshots show an artwork preview from the local development build with Primal scenery. The published stable 1.29.1 installer retains the earlier artwork; these previews do not announce a new stable release. All use isolated sample profiles and recorded/sample positions; they are not live gameplay captures or proof of tracking during the capture session. The health demonstration is explicitly marked **SAMPLE** and uses illustrative evidence.
 
 Combat, fracture and bleed references include an offline review of installed client build **24664737**. The audit is tied to that reference build, not proof of every current live-server version or interaction. Stable 1.29.1 passed **2,489 automated tests with zero failures or skips**; see the release validation report for the tested scope and remaining limits.
 
