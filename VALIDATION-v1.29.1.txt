@@ -1,0 +1,92 @@
+EVRIMA TRAILGUIDE 1.29.1 - STABLE VALIDATION
+Product version: 1.29.1
+Windows file/assembly version: 1.29.1.6
+Target: Windows x64, Windows 10 build 19041 or later; self-contained .NET 10.
+
+AUTOMATED REGRESSION
+The exact stable distribution passed all 2,489 automated tests: zero failed
+or skipped. The complete solution test run is part of the distribution build.
+Coverage includes OCR and coordinate recovery, scan scheduling, freshness,
+routes, minimap interaction, appearance, update safeguards, growth curves,
+health observations, attack paths, hit regions, fractures and bleed scenarios.
+
+HEALTH INDICATOR
+Feature preparation passed 363 headless minimap checks, including compact
+layouts, map-only mode, observation freshness, High Contrast and live palette
+changes. Health uses matched visible Status Report evidence, without a new
+capture loop, game-memory access or input interception. Unknown or conflicting
+evidence does not become a fabricated percentage. Full power is a range, not
+a claim of 100% health. Readings become stale after eight seconds.
+The health-to-power relationship is experimental. Synthetic injury tests and
+offline screenshot OCR verify handling, not actual health for every dinosaur.
+
+ATTACKS, HIT REGIONS AND FRACTURES
+The reference audit covers all 22 playable dinosaurs plus four unreleased
+reference entries. Current installed-client build 24664737 supplied qualified
+ability settings, target hit-region configuration and fracture references.
+Per-event, timed, conditional and unverified abilities remain distinct.
+
+Tests cover charge interpolation, target-owned location factors, native
+defaults, both Elder branches, intermediate growth, actual class-to-curve
+bindings, head/body/leg pools, exact fracture threshold boundaries, disabled
+head fractures, separate contact regions, resistance, modifiers and unknowns.
+Pachy's own fractured-head penalty is applied in the qualified operation order.
+Empty curves with explicit defaults are distinguished from missing evidence.
+Unqualified species, ability paths and invalid endpoints remain unavailable.
+
+BLEED
+Regressions cover qualified Ceratosaurus bite paths sharing final damage with
+bleed, target defense and hit-region suppression, the 1% threshold boundary,
+direct-lethal hits, growth-scaled blood capacity, wounded resistance, finite
+wounds, weighted movement, swimming bands and land-only resting protection.
+Missing data remains unverified; qualified zero bleed remains zero.
+Wound duration uses an explicit scenario. The optional vitals helper requires
+post-hit health. Finite wound totals are not a live bleed-death countdown.
+
+WPF INTERACTION REVIEW
+Feature preparation reviewed actual offscreen WPF controls for 26 species at
+980 x 650 / 100% and 1160 x 710 / 125%. Growth, Elder branch, move, target,
+charge, hit area and reciprocal comparisons were exercised. Pachy cards were
+checked through selectors and mutation controls; stale or irrelevant cards
+disappear. Water controls, disabled land options, return to land and numeric
+Ceratosaurus bleed results were tested. Details wrap and scroll at small sizes.
+The same implementation was tested in 1.29.1-dev.5 before stable promotion;
+stable changes update version metadata and installer documentation.
+
+STABLE SCREENSHOTS
+Twenty-two fresh screenshots render actual stable 1.29.1 WPF controls using
+isolated sample profiles. The final images were visually reviewed. They cover
+the main workspaces, four environment previews, personalized full-wrap maps,
+Bloodlines, appearance presets and the new health, charge, fracture and bleed
+panels. No user coordinates, saved lives or personal profile data were used.
+The health example is explicitly labelled SAMPLE; its illustrative evidence
+is not a live health reading. Calculators use the real application logic.
+Scenery and portraits are decorative AI-assisted art, not exact game imagery
+or a claim to detect the current biome or weather.
+
+INSTALLER AND SHORTCUTS
+Current-user upgrade from 1.29.1-dev.5 completed with installer exit code 0.
+The installed executable matches the packaged binary. All 119 external data
+assets match, and all 21 existing profile files remained byte-for-byte unchanged.
+Desktop, Start menu and pinned taskbar shortcuts target the stable executable.
+An app/profile backup was retained locally before upgrading.
+Installed product version: 1.29.1. Installed file version: 1.29.1.6.
+Application executable SHA256:
+1c43848896aa191e8f39942a3cbd3eb366f218aff89f159f763579db12ef7d63
+
+The Windows ZIP contains the same installer, README, notices, licence and
+installer checksum. It is not a portable application or private-source archive.
+The optional updater helper and required map assets are included.
+Release packages are identified by SHA256SUMS.txt.
+
+LIMITS
+Client references are not live-server combat measurements. Fracture counts
+assume qualifying registered contacts and no healing or parry; direct health
+damage may kill first. Bleed estimates depend on the selected duration and
+conditions, not a complete simulation of combat timing, needs and recovery.
+Unselected effects, clogging and unqualified ability-specific paths are not
+silently included. Ordinary attack references assume an intact attacker head.
+No new live-game combat, physical hotkey or cross-process click-through test
+was performed for this release. Offscreen renders do not activate windows,
+register game hotkeys or perform live OCR. Tracking still requires visible
+Status Report coordinates; routes use reference zones, not live server flags.

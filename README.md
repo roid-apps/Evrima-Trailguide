@@ -3,35 +3,48 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.0/EvrimaTrailguide-Setup-1.29.0.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.29.0-5EEAD4?style=for-the-badge&amp;labelColor=102A2B" alt="Download stable 1.29.0 for Windows"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.1/EvrimaTrailguide-Setup-1.29.1.exe"><img src="https://img.shields.io/badge/DOWNLOAD_WINDOWS-1.29.1-5EEAD4?style=for-the-badge&amp;labelColor=102A2B" alt="Download stable 1.29.1 for Windows"></a>
   <a href="https://youtu.be/U__SdPqlwzQ"><img src="https://img.shields.io/badge/WATCH_THE-WALKTHROUGH-FFCE73?style=for-the-badge&amp;labelColor=102A2B" alt="Watch the full walkthrough"></a>
-  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.29.0"><img src="https://img.shields.io/badge/EXPLORE-PRIMAL_HABITATS-79CAFF?style=for-the-badge&amp;labelColor=102A2B" alt="Read the 1.29.0 Primal Habitats and Bloodlines release notes"></a>
+  <a href="https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.29.1"><img src="https://img.shields.io/badge/EXPLORE-COMBAT_%26_SURVIVAL-FF907F?style=for-the-badge&amp;labelColor=102A2B" alt="Read the 1.29.1 health, attacks, fracture and bleed release notes"></a>
 </p>
 
 **Find your way. Plan your Prime. Keep your story.** Evrima Trailguide is a free Windows companion for **The Isle: Evrima**. Bring your map, dinosaur, objectives and run history together—then take a mini-map styled for the island back into the game.
 
 🗺️ **Your own location** · 🧭 **Prime route planning** · 🦕 **Dinosaur references** · 🩸 **Combat estimates** · 🧬 **Bloodlines** · 📖 **Run replay**
 
-**[Download for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.0/EvrimaTrailguide-Setup-1.29.0.exe)** · [Watch the walkthrough](https://youtu.be/U__SdPqlwzQ) · [Report a bug / share an idea](https://github.com/roid-apps/Evrima-Trailguide/issues)
+**[Download for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.1/EvrimaTrailguide-Setup-1.29.1.exe)** · [Watch the walkthrough](https://youtu.be/U__SdPqlwzQ) · [Report a bug / share an idea](https://github.com/roid-apps/Evrima-Trailguide/issues)
 
 No account. Your screen readings and saved runs stay on your PC. [Privacy](PRIVACY.md)
 
+## 🩸 New in 1.29.1 — know what a hit can do
+
+**A small health estimate. A deeper combat reference.** This update adds an optional mini-map health indicator, Ceratosaurus charge previews, target-specific damage regions, and **Head / Body / Legs** bone-health references with Pachy fracture calculations. Attack coverage and growth scaling have been reviewed across all **22 released species**, and qualified Ceratosaurus attacks now have corrected bleed calculations. [Read the release notes →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.29.1)
+
+<table>
+  <tr>
+    <td width="50%"><img src="images/primal-1.29.1/health-minimap.png" alt="Stable 1.29.1 Primal mini-map with an illustrative SAMPLE health estimate in the bottom-right corner" width="100%"><br><strong>❤️ Wounded-health estimate</strong><br>A passive, optional indicator with clear stale and unavailable states.</td>
+    <td width="50%"><img src="images/primal-1.29.1/fracture-growth.png" alt="Stable 1.29.1 Growth Studio regional bone-health references and Pachy headbutt estimates using sample inputs" width="100%"><br><strong>🦴 Know your bone pools</strong><br>Explore regional durability at your dinosaur’s growth and Elder branch.</td>
+  </tr>
+</table>
+
+These are qualified **reference estimates**, not live HP telemetry or guaranteed fight outcomes. Unverified ability values stay unavailable; a sample screenshot does not establish live gameplay validation.
+
 ## 🦴 Primal Habitats — your dinosaur, your atmosphere
 
-![Actual stable 1.29.0 Primal navigation workspace with an isolated sample position and the map filling its viewport](images/primal-1.29.0/primal-navigation.png)
+![Actual stable 1.29.1 Primal navigation workspace with an isolated sample position and the map filling its viewport](images/primal-1.29.1/primal-navigation.png)
 
-**Cold swamp mist. Drifting volcanic ash. Silver surf. Rust-red highlands.** Version **1.29.0** adds four environment packs, your selected dinosaur in the full-wrap Primal mini-map, a visual **Bloodlines** tree, and appearance presets you can preview, share and undo. [Explore the release →](https://github.com/roid-apps/Evrima-Trailguide/releases/tag/v1.29.0)
+**Cold swamp mist. Drifting volcanic ash. Silver surf. Rust-red highlands.** Keep the four environment packs, personalized full-wrap Primal mini-map, visual **Bloodlines** tree and shareable appearance presets introduced in 1.29.0. Preview a look before applying it, and undo it when you want a change.
 
 The optional **Primal · blood & bones** appearance brings cinematic survival scenery, skeletal remains, blood, translucent panels and vine borders into the app. Choose **Navigate → Tools → Appearance**, enable Primal, and pick an **Environment**. **Original** keeps the existing scene for each tab. Tune scenery strength, panel opacity, edge details and motion—or keep Classic. Existing preferences are retained; new profiles start with Classic.
 
 <table>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.0/environment-swamp-mist.png" alt="Swamp mist environment preview in Trailguide 1.29.0" width="100%"><br><strong>🌿 Swamp mist</strong><br>Cold green water, hanging roots and a shroud of mist.</td>
-    <td width="50%"><img src="images/primal-1.29.0/environment-volcanic-ash.png" alt="Volcanic ash environment preview in Trailguide 1.29.0" width="100%"><br><strong>🌋 Volcanic ash</strong><br>Charcoal mountains, drifting ash and a distant ember glow.</td>
+    <td width="50%"><img src="images/primal-1.29.1/environment-swamp-mist.png" alt="Swamp mist environment preview in Trailguide 1.29.1" width="100%"><br><strong>🌿 Swamp mist</strong><br>Cold green water, hanging roots and a shroud of mist.</td>
+    <td width="50%"><img src="images/primal-1.29.1/environment-volcanic-ash.png" alt="Volcanic ash environment preview in Trailguide 1.29.1" width="100%"><br><strong>🌋 Volcanic ash</strong><br>Charcoal mountains, drifting ash and a distant ember glow.</td>
   </tr>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.0/environment-moonlit-coast.png" alt="Moonlit coastline environment preview in Trailguide 1.29.0" width="100%"><br><strong>🌙 Moonlit coastline</strong><br>Silver surf, blue-black cliffs and moonlit jungle.</td>
-    <td width="50%"><img src="images/primal-1.29.0/environment-dry-highlands.png" alt="Dry highlands environment preview in Trailguide 1.29.0" width="100%"><br><strong>🏔️ Dry highlands</strong><br>Rust-red escarpments, dry grass and weathered bones.</td>
+    <td width="50%"><img src="images/primal-1.29.1/environment-moonlit-coast.png" alt="Moonlit coastline environment preview in Trailguide 1.29.1" width="100%"><br><strong>🌙 Moonlit coastline</strong><br>Silver surf, blue-black cliffs and moonlit jungle.</td>
+    <td width="50%"><img src="images/primal-1.29.1/environment-dry-highlands.png" alt="Dry highlands environment preview in Trailguide 1.29.1" width="100%"><br><strong>🏔️ Dry highlands</strong><br>Rust-red escarpments, dry grass and weathered bones.</td>
   </tr>
 </table>
 
@@ -51,16 +64,16 @@ Start a **New run** after respawning or changing lives. Routes use mapped refere
 
 ![Your map. Your atmosphere. — a moonlit cobalt coast framed by weathered bones](images/field-guide-2026-11/section-minimap.jpg)
 
-**Let the frame belong to your dinosaur.** The full-wrap Primal mini-map now combines your chosen habitat with one of the app’s **22 existing species portraits**. Weathered ribs fill the footer; vines frame both sides outside the terrain. Artwork adapts to compact and expanded layouts while preserving the dinosaur’s proportions.
+**Let the frame belong to your dinosaur.** The full-wrap Primal mini-map combines your chosen habitat with one of the app’s **22 species portraits**. Weathered ribs fill the footer; vines frame both sides outside the terrain. Artwork adapts to compact and expanded layouts while preserving the dinosaur’s proportions.
 
 <table>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.0/minimap-swamp-mist.png" alt="Actual 1.29.0 species-personalized Primal mini-map with Swamp mist" width="100%"><br><strong>🌿 Swamp mist</strong></td>
-    <td width="50%"><img src="images/primal-1.29.0/minimap-volcanic-ash.png" alt="Actual 1.29.0 species-personalized Primal mini-map with Volcanic ash" width="100%"><br><strong>🌋 Volcanic ash</strong></td>
+    <td width="50%"><img src="images/primal-1.29.1/minimap-swamp-mist.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Swamp mist" width="100%"><br><strong>🌿 Swamp mist</strong></td>
+    <td width="50%"><img src="images/primal-1.29.1/minimap-volcanic-ash.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Volcanic ash" width="100%"><br><strong>🌋 Volcanic ash</strong></td>
   </tr>
   <tr>
-    <td width="50%"><img src="images/primal-1.29.0/minimap-moonlit-coast.png" alt="Actual 1.29.0 species-personalized Primal mini-map with Moonlit coastline" width="100%"><br><strong>🌙 Moonlit coastline</strong></td>
-    <td width="50%"><img src="images/primal-1.29.0/minimap-dry-highlands.png" alt="Actual 1.29.0 species-personalized Primal mini-map with Dry highlands" width="100%"><br><strong>🏔️ Dry highlands</strong></td>
+    <td width="50%"><img src="images/primal-1.29.1/minimap-moonlit-coast.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Moonlit coastline" width="100%"><br><strong>🌙 Moonlit coastline</strong></td>
+    <td width="50%"><img src="images/primal-1.29.1/minimap-dry-highlands.png" alt="Actual 1.29.1 species-personalized Primal mini-map with Dry highlands" width="100%"><br><strong>🏔️ Dry highlands</strong></td>
   </tr>
 </table>
 
@@ -71,10 +84,12 @@ Choose **Navigate → Map settings → Frame artwork → Primal · blood & bones
 - 💾 **Save your setup:** Gameplay, Ghost HUD, Explorer and High visibility presets, plus up to eight named layouts.
 - ⚙️ **Edit from the main app:** **Map settings** beside **Show mini-map** works even while the overlay is hidden.
 
+**❤️ An approximate health reading, tucked into the bottom-right corner.** Enable or hide **Map settings → Health estimate · bottom right**. The indicator uses a matched visible Status Report and recent growth to estimate wounded health for the selected dinosaur. Above half health, it shows a range rather than claiming an exact percentage. It marks readings stale after eight seconds; it cannot track damage or recovery while Status Report is closed. Missing, contradictory or mismatched readings stay unavailable. The model is experimental and can be affected by mutations, diet or server changes.
+
 <details>
 <summary><strong>🦴 Explore the larger Primal mini-map</strong></summary>
 
-![Actual expanded 1.29.0 Primal mini-map with species artwork, environment scenery and visible exploration controls](images/primal-1.29.0/minimap-expanded.png)
+![Actual expanded 1.29.1 Primal mini-map with species artwork, environment scenery and visible exploration controls](images/primal-1.29.1/minimap-expanded.png)
 
 Open the expanded view for destination, layer and opacity controls. **Ghost HUD** hides the frame and controls for a transparent, click-through map-only view. High contrast hides decorative artwork too, including when the Windows setting changes while the mini-map is open.
 
@@ -88,7 +103,7 @@ The artwork receives no mouse or keyboard input. Changing an environment or port
 
 ![Every life leaves a trail — bones and dinosaur footprints disappearing into violet fog](images/field-guide-2026-11/section-journal.jpg)
 
-![Actual 1.29.0 Bloodlines tree showing three sample generations, recorded Entomb connections and mutation details](images/primal-1.29.0/lineage-tree.png)
+![Actual 1.29.1 Bloodlines tree showing three sample generations, recorded Entomb connections and mutation details](images/primal-1.29.1/lineage-tree.png)
 
 Open **Lineage & mutations → Explore lineage tree** to see recorded lives, generations and mutations together. Select a life to inspect its mutation records or open its archived route in replay. Compact cards keep the chain visible, with details beside it on larger windows.
 
@@ -96,7 +111,7 @@ Connections show **recorded Entomb transitions**. Missing generations, ambiguous
 
 ## 🎨 Preview it. Share it. Make it yours.
 
-![Actual 1.29.0 Appearance presets window with scenery and personalized mini-map previews](images/primal-1.29.0/appearance-preview.png)
+![Actual 1.29.1 Appearance presets window with scenery and personalized mini-map previews](images/primal-1.29.1/appearance-preview.png)
 
 Open **Navigate → Tools → Appearance → Appearance presets**. Try a built-in environment or import a friend’s look, inspect the preview, then choose **Apply preview**. Closing without Apply leaves your saved appearance alone. **Undo last apply** restores the previous look while preserving newer navigation progress.
 
@@ -108,9 +123,17 @@ Open previews follow species and accessibility changes. Camera movement and rout
 
 ![Built around your dinosaur — Ceratosaurus and Stegosaurus in an ochre-lit landscape](images/field-guide-2026-11/section-dinosaurs.jpg)
 
-![Actual stable 1.29.0 Primal Growth Studio with growth silhouettes, reference stages and statistics](images/primal-1.29.0/primal-growth.png)
+![Actual stable 1.29.1 Primal Growth Studio with growth silhouettes, reference stages and statistics](images/primal-1.29.1/primal-growth.png)
 
 **A recognizable face for every entry.** Explore the app’s 22 species portraits, choose your dinosaur and follow its growth. **Growth Studio** brings reference stages, silhouettes and stats together; **Lineage & mutations** keeps selected mutations and recorded generations with the run.
+
+**Choose a move and a target.** Compare damage to the head, body and tail, then expand neck, limb and other species-specific regions. Supported attacks follow growth and Prime/Frail scaling. Ceratosaurus has a **0–4 second effective mouth-open charge preview**; full charge is **2.3× ordinary bite** before target and scenario adjustments. Separate contact events, pounce cycles and conditional abilities retain their own rules.
+
+![Stable 1.29.1 Ceratosaurus charge preview and target-region damage references with sample inputs](images/primal-1.29.1/charged-bite-growth.png)
+
+**🦴 How many Pachy headbutts can your dinosaur take?** Open the **Bone health reference** in Growth Studio. Set the defender’s species, growth and Elder branch, then adjust the Pachy attacker independently. Head, Body and Legs show maximum and remaining bone pools alongside tap and held-headbutt estimates. Viewing Pachy also lets you choose a different target. Existing regional damage, fracture resistance, relevant mutations and attacker injury can change the result.
+
+Fracture counts assume qualifying repeated contacts to the selected region, with no healing or parry. A hit must meet the fracture threshold; some head contacts redirect to Body, and some areas cannot contribute through this attack path. Ordinary HP may run out before a bone fractures. The four unreleased reference entries do not receive invented bone values.
 
 The portraits are AI-assisted illustrations based on Evrima game-model references. Measured silhouettes remain the growth and size reference; the collection is not a claim that every species is currently playable on every game branch.
 
@@ -118,9 +141,26 @@ The portraits are AI-assisted illustrations based on Evrima game-model reference
 
 ![Know your matchup — Ceratosaurus and Carnotaurus beneath grey storm clouds](images/field-guide-2026-11/section-combat.jpg)
 
-![Actual stable 1.29.0 Primal combat workspace with dinosaur comparisons, silhouettes, direct hits and bleed estimates](images/primal-1.29.0/primal-combat.png)
+![Actual stable 1.29.1 Primal combat workspace with dinosaur comparisons, silhouettes, direct hits and bleed estimates](images/primal-1.29.1/primal-combat.png)
 
-**Choose both dinosaurs. Pick their moves. Adjust growth.** Watch reference stats and hit estimates change together, with separate direct-damage and bleed results. Explore mutation scenarios and open the calculation details when you want to understand an estimate.
+**Choose both dinosaurs. Pick their moves. Adjust growth and hit area.** Watch reference stats and event estimates change together, with separate direct-damage and bleed results. Region multipliers belong to the **target dinosaur**, and attacks that bypass ordinary hit regions keep their separate rules. The attack calculator includes compact Pachy fracture cards tied to the selected stages and mutations.
+
+![Stable 1.29.1 Pachy fracture calculator with sample attacker and victim settings](images/primal-1.29.1/pachy-fracture-calculator.png)
+
+**🩸 Bleed follows the selected scenario.** Qualified Ceratosaurus bite, directional bite and charged bite use final direct damage, target defense and the applicable bleed thresholds. Current-growth blood capacity is the default; the older chart pool is an explicit historical comparison. Choose land movement or a swimming speed band, inspect resistance, and use a finite wound duration with the post-hit vitals helper.
+
+![Stable 1.29.1 Ceratosaurus direct-damage and bleed-out references with sample scenario inputs](images/primal-1.29.1/bleed-calculator.png)
+
+<details>
+<summary><strong>🩸 Movement, wound duration and calculation limits</strong></summary>
+
+![Stable 1.29.1 bleed movement references with explicit swimming-speed scenarios](images/primal-1.29.1/bleed-movement.png)
+
+Mixed land movement uses a weighted loss rate. Water has separate slow, fast and above-fast speed bands; land resting protection is not applied underwater. Wounded Ceratosaurus resistance, Beipiaosaurus water resistance, wound expiry and lethal-direct-hit handling are included where qualified.
+
+An event estimate assumes the selected repeated contacts and conditions. It is not a complete fight simulation or a death countdown. Unknown ability bleed stays **Unverified**, rather than becoming zero. Carno’s continuous headbutt curve, conditional Rex throw damage, Hypsi spit damage scaling and complete hallucination/venom sequences still have unresolved details.
+
+</details>
 
 These are **reference comparisons**, not guaranteed fight outcomes. Timing, positioning and unmodelled mechanics still matter; version and compatibility notes remain available in the app.
 
@@ -132,22 +172,22 @@ Seven workspaces keep the next decision within reach:
 | --- | --- |
 | 🧭 **Navigate** | Find your position, mark personal stops and plan the Prime zones still needed. |
 | 🧬 **Lineage & mutations** | Record generations, completed Entombs and chosen mutations; explore the Bloodlines tree. |
-| 🩸 **Combat & survival** | Compare direct damage, bleed and survival references. |
+| 🩸 **Combat & survival** | Compare target-area damage, Pachy fractures and finite bleed scenarios. |
 | 📖 **History & replay** | Revisit archived lives, recorded routes and events; import or export runs. |
-| 🦕 **Growth Studio** | Explore growth stages, silhouettes and reference stats. |
+| 🦕 **Growth Studio** | Explore growth, attack scaling, hit regions and regional bone health. |
 | 🧿 **Compass guide** | Recognize the direction, resource and zone symbols on Evrima’s compass. |
 | 💡 **How to use** | Search 15 offline help topics and jump straight to the relevant controls. |
 
 <details>
 <summary><strong>📖 Explore route replay</strong></summary>
 
-![Actual stable 1.29.0 Primal History and replay workspace with an isolated sample archive](images/primal-1.29.0/primal-history-replay.png)
+![Actual stable 1.29.1 Primal History and replay workspace with an isolated sample archive](images/primal-1.29.1/primal-history-replay.png)
 
 Selecting a saved life frames its route once. Playback and later resizing preserve your chosen camera view.
 
 </details>
 
-![Actual stable 1.29.0 Primal How to use workspace with first-session steps and searchable help topics](images/primal-1.29.0/primal-how-to-use.png)
+![Actual stable 1.29.1 Primal How to use workspace with first-session steps and searchable help topics](images/primal-1.29.1/primal-how-to-use.png)
 
 **Keep the atmosphere—or turn it down.** Adjust scenery strength, panel opacity and decorative edges in **Navigate → Tools → Appearance**, or switch the artwork off. Existing users keep their selected appearance. Profile backups give your settings and recorded lives a recovery copy.
 
@@ -155,7 +195,7 @@ Selecting a saved life frames its route once. Playback and later resizing preser
 
 ![Step onto the island — dinosaur eggs on a black-sand beach at coral dawn](images/field-guide-2026-11/section-start.jpg)
 
-1. **Install:** [download stable 1.29.0 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.0/EvrimaTrailguide-Setup-1.29.0.exe). Close Trailguide before upgrading.
+1. **Install:** [download stable 1.29.1 for Windows](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.1/EvrimaTrailguide-Setup-1.29.1.exe). Close Trailguide before upgrading.
 2. **Set up:** open **Setup check**, then the game’s **Status Report**. Use **Navigate → Tools → Scan setup → Auto setup** and inspect the capture areas.
 3. **Explore:** confirm a fresh reading, select **Show mini-map**, and press **Plan my Prime route** when you are ready to plan.
 4. **Make it yours:** choose a Primal environment in **Appearance**, personalize your mini-map and preview a shareable look.
@@ -191,11 +231,11 @@ Automatic installation is for installed copies; all-users installations may requ
 
 Windows x64 · Windows 10 build 19041 or newer · .NET runtime included. English Windows OCR support may need enabling separately.
 
-The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.0/EvrimaTrailguide-1.29.0-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
+The [ZIP bundle](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.1/EvrimaTrailguide-1.29.1-Windows.zip) contains the installer and notices; it is not a portable app. GitHub’s automatic source archives contain repository documentation, not the application.
 
 Normal upgrades retain your profile. Keep a profile backup before upgrading.
 
-[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.0/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.0/VALIDATION-v1.29.0.txt) · [Privacy statement](PRIVACY.md)
+[SHA-256 checksums](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.1/SHA256SUMS.txt) · [Build-specific validation](https://github.com/roid-apps/Evrima-Trailguide/releases/download/v1.29.1/VALIDATION-v1.29.1.txt) · [Privacy statement](PRIVACY.md)
 
 The installer is unsigned. An unfamiliar-app/SmartScreen reputation warning is not itself a malware detection. Use this repository’s release downloads and keep Windows protection enabled.
 
@@ -210,7 +250,9 @@ Made by **Roid** · Discord: **r_o_i_d** · [Email](mailto:b_greenspan@yahoo.com
 <details>
 <summary><strong>About the imagery and project</strong></summary>
 
-The application screenshots and previews show actual stable 1.29.0 controls with Primal scenery. All use isolated sample profiles and recorded/sample positions; they are not live gameplay captures or proof of tracking during the capture session.
+The application screenshots and previews show actual stable 1.29.1 controls with Primal scenery. All use isolated sample profiles and recorded/sample positions; they are not live gameplay captures or proof of tracking during the capture session. The health demonstration is explicitly marked **SAMPLE** and uses illustrative evidence.
+
+Combat, fracture and bleed references include an offline review of installed client build **24664737**. The audit is tied to that reference build, not proof of every current live-server version or interaction. Stable 1.29.1 passed **2,489 automated tests with zero failures or skips**; see the release validation report for the tested scope and remaining limits.
 
 The cinematic header, scenery and portraits are decorative AI-assisted illustrations, not gameplay captures or exact map imagery. Section banners are AI-assisted concept illustrations checked against visual references. Trailguide is an independent fan project, not affiliated with The Isle’s developers. This repository hosts downloads and documentation; the application source is private.
 
